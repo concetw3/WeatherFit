@@ -104,13 +104,13 @@ def kl23():
 
 
 
-#print("During the next 12 hours there will be " + Access_timeseries[2]['next_12_hours'])
 #print("During the next 1 hour there will be " + Access_timeseries[2]['next_1_hours'])
 #print("The temperature is at " + Access_timeseries[0]['air_temperature'] + " degrees celcius outside right now")
 next_couple_of_hours()
 kl18()
 kl23()
-#temperatur_right_now()
+
+
 #print(Access_instant['details']['air_temperature'])
 
 
