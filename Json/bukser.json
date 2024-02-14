@@ -1,0 +1,66 @@
+{
+  "bukser": [
+    /*
+    {
+      "navn": "",
+      "lange_bukser":,
+      "farve":,
+      "varme":
+
+    },
+
+    */
+
+    {
+      "navn": "Levis 501",
+      "lange_bukser": true,
+      "farve": "sorte",
+      "varme": 7
+    },
+    {
+      "navn": "Laederbukser",
+      "lange_bukser": true,
+      "farve": "moerkebrune",
+      "varme": 9
+    },
+    {
+      "navn": "Diesel",
+      "lange_bukser": true,
+      "farve": "beige",
+      "varme": 3
+    },
+    {
+      "navn": "Kappa",
+      "lange_bukser": true,
+      "farve": "blaa og gule",
+      "varme": 3
+    }
+
+  ],
+  "overtraeksbukser": [
+/*
+    {
+      "navn": "",
+      "farve":,
+      "vandtaette":,
+      "vindtaette":
+
+    },
+  */
+    {
+      "navn": "H2O",
+      "farve": "sort",
+      "vandtaette": true,
+      "vindtaette": true
+    },
+    {
+      "navn": "Helly hansen",
+      "farve": "sorte",
+      "vandtaette": true,
+      "vindtaette": true
+    }
+
+  ]
+
+
+}
