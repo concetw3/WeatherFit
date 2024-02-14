@@ -1,15 +1,13 @@
 {
   "bukser": [
-    /*
+   
     {
-      "navn": "",
-      "lange_bukser":,
-      "farve":,
-      "varme":
+      "navn": "test",
+      "lange_bukser":true,
+      "farve":"N/A",
+      "varme":0
 
     },
-
-    */
 
     {
       "navn": "Levis 501",
@@ -38,15 +36,15 @@
 
   ],
   "overtraeksbukser": [
-/*
+
     {
-      "navn": "",
-      "farve":,
-      "vandtaette":,
-      "vindtaette":
+      "navn": "Test",
+      "farve": "N/A",
+      "vandtaette": true,
+      "vindtaette": true
 
     },
-  */
+
     {
       "navn": "H2O",
       "farve": "sort",
@@ -58,6 +56,25 @@
       "farve": "sorte",
       "vandtaette": true,
       "vindtaette": true
+    }
+
+  ]
+  "shorts": [
+    {
+      "navn": "Kappa",
+      "farve": "lyseroed og sort"
+    },
+    {
+      "navn": "Bjorn borg",
+      "farve": "lyseblaa"
+    },
+    {
+      "navn": "",
+      "farve": ""
+    },
+    {
+      "navn": "",
+      "farve": ""
     }
 
   ]

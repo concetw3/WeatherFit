@@ -1,7 +1,14 @@
 import requests
 import json
 from datetime import datetime
+from io import StringIO
 
+
+
+with open('Json\\bukser.json') as f:
+    bukser_data = json.load(f)
+       
+      
 #Hente data
 my_headers = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
 response = requests.get("https://api.met.no/weatherapi/locationforecast/2.0/complete?lat=55.67&lon=12.56", headers = {'User-Agent':my_headers})
@@ -28,7 +35,6 @@ def findkeys(node, kv):
 #Søge i data med funktion
 time = list(findkeys(timeseries, 'time'))
 
-        #vejret = list(findkeys(data, 'symbol_code'))
 
 #Tidspunkt lige nu uden rigtige minut eller sekunder
 iso_date = datetime.now().replace(minute=0,second=0,microsecond=0,).isoformat()
@@ -59,6 +65,7 @@ iso_date_kl18z ='Z'
 iso_date_kl18_kombineret = ''.join([iso_date_kl18,iso_date_kl18z])
 
 def kl18():
+    global Klokken18
     iso_date_kl18 = datetime.now().replace(hour=18,minute=0,second=0,microsecond=0,).isoformat()
     iso_date_kl18z ='Z'
     iso_date_kl18_kombineret = ''.join([iso_date_kl18,iso_date_kl18z])
@@ -73,8 +80,10 @@ def kl18():
     Access_temperatur = Access_instant['details']['air_temperature']
 
     Temperatur = Access_temperatur
-    print("The temperature at 18pm will be " + str(Temperatur) + " degrees celcius outside")
-    print(Klokken18)
+    #print("The temperature at 18pm will be " + str(Temperatur) + " degrees celcius outside")
+    #print(Klokken18)
+    return Klokken18
+    
 
 def kl23():
     #programmet finder ud af hvilken dato det er og hvad klokken er, 
@@ -101,17 +110,12 @@ def kl23():
     print("The temperature at 23pm will be " + str(Temperatur) + " degrees celcius outside")
     print("The index of kl 23 is: " + str(Klokken23))
 
-
-
-
-#print("During the next 1 hour there will be " + Access_timeseries[2]['next_1_hours'])
-#print("The temperature is at " + Access_timeseries[0]['air_temperature'] + " degrees celcius outside right now")
-next_couple_of_hours()
+#next_couple_of_hours()
 kl18()
-kl23()
+#kl23()
 
+print(Klokken18)
 
-#print(Access_instant['details']['air_temperature'])
 
 
 
