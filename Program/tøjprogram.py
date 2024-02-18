@@ -9,8 +9,27 @@ def bukser():
         bukser_data = json.load(f)
         bukser_data = random.choice(bukser_data['bukser'])
         return bukser_data
-        
-       
+    
+def hovedbeklaedning():
+     with open('Json\\hovedbeklaedning.json') as f:
+        hovedbeklaedning_data = json.load(f)
+        hovedbeklaedning_data = random.choice(hovedbeklaedning_data['kasketter'])
+        return hovedbeklaedning_data
+
+    
+def sko():
+    with open('Json\\sko.json') as f:
+        sko_data = json.load(f)
+        sko_data = random.choice(sko_data['sko'])
+        return sko_data
+
+def jakker():
+    with open('Json\\jakker.json') as f:
+        jakker_data = json.load(f)
+        jakker_data = random.choice(jakker_data['jakker'])
+        return jakker_data
+    
+
 
 def troejer():
      with open('Json\\troejer.json') as f:
@@ -156,11 +175,14 @@ def kl23():
 
 def outfit():
     outfit = []  
+    outfit.append(sko())
     outfit.append(bukser())
     outfit.append(tshirt())
     outfit.append(troejer())
-    outfit.append(regntoej()) 
-    outfit = json.dumps(outfit, indent=4, sort_keys=True)
+    outfit.append(jakker())
+    outfit.append(hovedbeklaedning())
+    #outfit.append(regntoej()) 
+    outfit = json.dumps(outfit, indent=4,)
     print(outfit)
 
 

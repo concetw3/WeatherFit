@@ -122,7 +122,7 @@
     },
     {
       "navn": "Bevar Woodstock",
-      "farve": "grøn",
+      "farve": "groen",
       "langaermet": false
     },
     {
@@ -131,24 +131,14 @@
       "langaermet": false
     },
     {
-      "navn": "Made in Heaven",
-      "farve": "lyserroed",
-      "langaermet": true
-    },
-    {
       "navn": "Bevar Christiania",
-      "farve": "grøn",
+      "farve": "groen",
       "langaermet": false
     },
     {
       "navn": "Armor Lux",
       "farve": "moerkeroed",
       "langaermet": true
-    },
-    {
-      "navn": "Bevar Christiania",
-      "farve": "grøn",
-      "langaermet": false
     },
     {
       "navn": "Stanley Stella ",

@@ -2,14 +2,6 @@
   "bukser": [
 
     {
-      "navn": "test",
-      "lange_bukser": true,
-      "farve": "N/A",
-      "varme": 0
-
-    },
-
-    {
       "navn": "Levis 501",
       "lange_bukser": true,
       "farve": "sorte",

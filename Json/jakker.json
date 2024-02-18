@@ -1,0 +1,56 @@
+{
+  "jakker": [
+    
+      {
+        "navn": "North Face dunjakke",
+        "farve": "sort",
+        "vandtaet": false,
+        "varme": 10
+      },
+      {
+        "navn": "Henri Lloyd oilskin",
+        "farve": "groen",
+        "vandtaet": false,
+        "varme":6
+      },
+      {
+        "navn": "Cressida pels",
+        "farve": "moerkebrun",
+        "vandtaet": false,
+        "varme":8
+      },
+      {
+        "navn": "H2O regnjakke",
+        "farve": "sort",
+        "vandtaet": false,
+        "varme": 2
+      },
+      {
+        "navn": "Laederjakke",
+        "farve": "sort",
+        "vandtaet": false,
+        "varme": 5
+      },
+      {
+        "navn": "Moebeltransport danmark",
+        "farve": "roed",
+        "vandtaet": false,
+        "varme":5
+      },
+      {
+        "navn": "J guide",
+        "farve": "graa",
+        "vandtaet": false,
+        "varme": 2
+      },
+      {
+        "navn": "Kansas arbejdsjakke",
+        "farve": "blaa",
+        "vandtaet": false,
+        "varme": 3
+      }
+    
+
+
+  ]
+}

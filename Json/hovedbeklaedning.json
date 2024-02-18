@@ -1,38 +1,23 @@
 {
   "kasketter": [
     {
-      "navn": "Bier macht schon",
+      "navn": "Bier macht schon kasket",
       "farve": "sort",
       "varme": 0
     },
     {
-      "navn": "Uponor",
+      "navn": "Uponor kasket",
       "farve": "moerkeblaa",
-      "varme": 0
-    },
-    {
-      "navn": "test",
-      "farve": "N/A",
-      "varme": 0
-    },
-    {
-      "navn": "test",
-      "farve": "N/A",
       "varme": 0
     }
 
-
-
-
-
-
-  ]
+  ],
   "huer": [
     {
       "navn": "beechfield",
       "farve": "moerkeblaa",
       "varme": 0
-    },
+    }
   ]
 
 }
