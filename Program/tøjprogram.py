@@ -2,11 +2,38 @@ import requests
 import json
 from datetime import datetime
 from io import StringIO
+import random
+
+def bukser():
+    with open('Json\\bukser.json') as f:
+        bukser_data = json.load(f)
+        bukser_data = random.choice(bukser_data['bukser'])
+        return bukser_data
+        
+       
+
+def troejer():
+     with open('Json\\troejer.json') as f:
+        troejer_data = json.load(f)
+        troejer_data = random.choice(troejer_data['troejer'])
+        return troejer_data
 
 
+def tshirt():
+    with open('Json\\t-shirts.json') as f:
+        t_shirt_data = json.load(f)
+        t_shirt_data = random.choice(t_shirt_data['t-shirts'])
+        return t_shirt_data
 
-with open('Json\\bukser.json') as f:
-    bukser_data = json.load(f)
+
+def regntoej():
+    nextonehour()
+    Rain_in_millimeter_next_hour = nextonehour()
+    with open('Json\\bukser.json') as f:
+        bukser_data = json.load(f)
+    if Rain_in_millimeter_next_hour >= 1:
+        regn_bukser = random.choice(bukser_data['overtraeksbukser'])
+        return regn_bukser
        
       
 #Hente data
@@ -16,8 +43,6 @@ response = requests.get("https://api.met.no/weatherapi/locationforecast/2.0/comp
 #Lave det til en dict
 data = json.loads(response.text)
 
-properties = data['properties']
-timeseries = properties['timeseries']
 
 #Funktion til at søge i dict
 def findkeys(node, kv):
@@ -32,12 +57,18 @@ def findkeys(node, kv):
             for x in findkeys(j, kv):
                 yield x
 
-#Søge i data med funktion
-time = list(findkeys(timeseries, 'time'))
+def nextonehour():
+    Access_properties = data['properties']
+    Access_timeseries = Access_properties['timeseries']
+    Access_data = Access_timeseries[0]['data']
+    Access_next1hours = Access_data['next_1_hours']
+    Access_next1hours_summary = Access_next1hours['summary']
+    Access_next1hours_details = Access_next1hours['details']
+    Rain_in_millimeters = Access_next1hours_details['precipitation_amount']
+    return Rain_in_millimeters
 
 
-#Tidspunkt lige nu uden rigtige minut eller sekunder
-iso_date = datetime.now().replace(minute=0,second=0,microsecond=0,).isoformat()
+
 def temperatur_right_now():
     Access_properties = data['properties']
     Access_timeseries = Access_properties['timeseries']
@@ -48,21 +79,33 @@ def temperatur_right_now():
     Temperatur = Access_temperatur
     print("The date and time is " + str(datetime.now().replace(microsecond=0)))
     print("The temperature is at " + str(Temperatur) + " degrees celcius outside right now")
-    
 
- #Kommer det til at regne eller sne de næste 12 time?   
+     
 def next_couple_of_hours():
     Access_properties = data['properties']
     Access_timeseries = Access_properties['timeseries']
     Access_data = Access_timeseries[0]['data']
     Access_next12hours = Access_data['next_12_hours']
     Access_next12hours_summary = Access_next12hours['summary']
+    print("During the next 12 hours there will be " + Access_next12hours_summary['symbol_code'])   
 
-    print(Access_next12hours_summary['symbol_code'])
+def kl12():
+    iso_date_kl12 = datetime.now().replace(hour=12,minute=0,second=0,microsecond=0,).isoformat()
+    iso_date_kl12z ='Z'
+    iso_date_kl12_kombineret = ''.join([iso_date_kl12,iso_date_kl12z])
 
-iso_date_kl18 = datetime.now().replace(hour=18,minute=0,second=0,microsecond=0,).isoformat()
-iso_date_kl18z ='Z'
-iso_date_kl18_kombineret = ''.join([iso_date_kl18,iso_date_kl18z])
+    time = list(findkeys(timeseries, 'time'))
+    Klokken18 = time.index(iso_date_kl18_kombineret)
+
+    Access_properties = data['properties']
+    Access_timeseries = Access_properties['timeseries']
+    Access_data = Access_timeseries[Klokken18]['data']
+    Access_instant = Access_data['instant']
+    Access_temperatur = Access_instant['details']['air_temperature']
+
+    Temperatur = Access_temperatur
+    print("The temperature at 18pm will be " + str(Temperatur) + " degrees celcius outside")
+    return Klokken12
 
 def kl18():
     global Klokken18
@@ -80,24 +123,21 @@ def kl18():
     Access_temperatur = Access_instant['details']['air_temperature']
 
     Temperatur = Access_temperatur
-    #print("The temperature at 18pm will be " + str(Temperatur) + " degrees celcius outside")
-    #print(Klokken18)
+    print("The temperature at 18pm will be " + str(Temperatur) + " degrees celcius outside")
     return Klokken18
-    
-
 def kl23():
     #programmet finder ud af hvilken dato det er og hvad klokken er, 
     #og laver datoen og tiden om med .replace funktionen. så den passer til den givne dato. "2024-02-08T19:32:44.55" bliver til "2024-02-08T23:00:00"
     #Variablen er en string
-    iso_date_kl18 = datetime.now().replace(hour=23,minute=0,second=0,microsecond=0,).isoformat()
+    iso_date_kl23 = datetime.now().replace(hour=23,minute=0,second=0,microsecond=0,).isoformat()
     #Simple string variable der indeholder værdien 'Z'
-    iso_date_kl18z ='Z'
+    iso_date_kl23z ='Z'
     #Kombinere begge string variabler så det bliver til "2024-02-08T23:00:00Z" -- som skal bruges i 'time' funktionen der leder efter klokkeslættet
-    iso_date_kl18_kombineret = ''.join([iso_date_kl18,iso_date_kl18z])
+    iso_date_kl23_kombineret = ''.join([iso_date_kl23,iso_date_kl23z])
     #Funktion der leder i list efter alle tidspunkter og putter dem i en list
     time = list(findkeys(timeseries, 'time'))
     #Finder indextallet i listen 'time' og propper det ind i variablen 'Klokken23' som en integer -- som indeholder alle de andre data fra den time som nedbør, sol, temperatur
-    Klokken23 = time.index(iso_date_kl18_kombineret)
+    Klokken23 = time.index(iso_date_kl23_kombineret)
     #Går ind i api'en og iterater først via keys indtil vi når den store nested list
     Access_properties = data['properties']
     Access_timeseries = Access_properties['timeseries']
@@ -106,15 +146,28 @@ def kl23():
     Access_instant = Access_data['instant']
     Access_temperatur = Access_instant['details']['air_temperature']
 
-    Temperatur = Access_temperatur
-    print("The temperature at 23pm will be " + str(Temperatur) + " degrees celcius outside")
-    print("The index of kl 23 is: " + str(Klokken23))
+    Temperatur2 = Access_temperatur
+    print("The temperature at 23pm will be " + str(Temperatur2) + " degrees celcius outside")
+    #print("The index of kl 23 is: " + str(Klokken23))
 
-#next_couple_of_hours()
-kl18()
-#kl23()
 
-print(Klokken18)
+
+def outfit():
+    outfit = []  
+    outfit.append(bukser())
+    outfit.append(tshirt())
+    outfit.append(troejer())
+    outfit.append(regntoej()) 
+    print(outfit)
+
+
+ 
+
+        
+   
+
+
+outfit()
 
 
 

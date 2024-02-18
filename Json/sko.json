@@ -1,0 +1,78 @@
+{
+  "sko": [
+    {
+      "navn": "",
+      "farve": "",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Elten arbejdssko",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Colombia",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": true
+    },
+    {
+      "navn": "Red Wing",
+      "farve": "moerkebrun",
+      "vandtaette": true,
+      "sandaler": false
+    },
+    {
+      "navn": "Lloyd",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Asics",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Derossi",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Playboy uden snoerrebaand",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Sendra stoevler",
+      "farve": "sort",
+      "vandtaette": true,
+      "sandaler": false
+    },
+    {
+      "navn": "Nike air max 90",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": false
+    },
+    {
+      "navn": "Camper stoevler",
+      "farve": "sort",
+      "vandtaette": true,
+      "sandaler": false
+    },
+    {
+      "navn": "Kappa badesandaler",
+      "farve": "sort",
+      "vandtaette": false,
+      "sandaler": true
+    }
+
+
+  ]
+}

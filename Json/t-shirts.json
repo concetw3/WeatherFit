@@ -20,13 +20,13 @@
       "farve": "hvid",
       "langaermet": false
     },
-    {
+    {<
       "navn": "Loesriv Lolland",
       "farve": "sort",
       "langaermet": false
     },
     {
-      "navn": "Lever det her liv som nogen tror jeg tager serioest",
+      "navn": "Lever det her liv sindssyge liv som flok tror jeg tager serioest",
       "farve": "blandede",
       "langaermet": false
     },
@@ -56,25 +56,186 @@
       "langaermet": true
     },
     {
-      "navn": "",
-      "farve": "",
+      "navn": "Broder",
+      "farve": "sort",
       "langaermet": false
     },
     {
-      "navn": "",
-      "farve": "",
+      "navn": "Janushoved",
+      "farve": "hvid",
       "langaermet": false
     },
     {
-      "navn": "",
-      "farve": "",
+      "navn": "Stockholm surfboard club",
+      "farve": "gul",
+      "langaermet": true
+    },
+    {
+      "navn": "Bad Axe throwing",
+      "farve": "sort",
+      "langaermet": false
+    },
+    {
+      "navn": "Divided tank top",
+      "farve": "sort",
+      "langaermet": false
+    },
+    {
+      "navn": "Pafund til rigets ende",
+      "farve": "hvid",
+      "langaermet": false
+    },
+    {
+      "navn": "Vi har travlt simba",
+      "farve": "creme",
+      "langaermet": false
+    },
+    {
+      "navn": "FCK",
+      "farve": "hvid",
+      "langaermet": false
+    },
+    {
+      "navn": "team easy on",
+      "farve": "lyseroed",
+      "langaermet": false
+    },
+    {
+      "navn": "I love Nyhavn",
+      "farve": "beige",
+      "langaermet": false
+    },
+    {
+      "navn": "neutral",
+      "farve": "moerkeblaa",
+      "langaermet": false
+    },
+    {
+      "navn": "Xofako - oys and ripped just something about",
+      "farve": "lilla",
+      "langaermet": true
+    },
+    {
+      "navn": "puma gucci single",
+      "farve": "sort",
+      "langaermet": false
+    },
+    {
+      "navn": "Bevar Woodstock",
+      "farve": "grøn",
+      "langaermet": false
+    },
+    {
+      "navn": "Exact science",
+      "farve": "moerkeblaa",
+      "langaermet": false
+    },
+    {
+      "navn": "Made in Heaven",
+      "farve": "lyserroed",
+      "langaermet": true
+    },
+    {
+      "navn": "Bevar Christiania",
+      "farve": "grøn",
+      "langaermet": false
+    },
+    {
+      "navn": "Armor Lux",
+      "farve": "moerkeroed",
+      "langaermet": true
+    },
+    {
+      "navn": "Bevar Christiania",
+      "farve": "grøn",
+      "langaermet": false
+    },
+    {
+      "navn": "Stanley Stella ",
+      "farve": "lilla",
       "langaermet": false
     }
 
 
 
-
-
   ]
-
+  "skjorter": [
+    {
+      {
+        "navn": "H&M svampe",
+        "farve": "lilla",
+        "langaermet": false
+      },
+      {
+        "navn": "Butter",
+        "farve": "flerfarvet",
+        "langaermet": false
+      },
+      {
+        "navn": "Roberto Biagini",
+        "farve": "flerfarvet",
+        "langaermet": true
+      },
+      {
+        "navn": "Ralph Lauren",
+        "farve": "hvid",
+        "langaermet": true
+      },
+      {
+        "navn": "Our legacy denim",
+        "farve": "denim",
+        "langaermet": true
+      },
+      {
+        "navn": "wrangler",
+        "farve": "moerkeblaa",
+        "langaermet": true
+      },
+      {
+        "navn": "Ravi Sehgal formel",
+        "farve": "hvid",
+        "langaermet": true
+      },
+      {
+        "navn": "Ravi Sehgal formel",
+        "farve": "lyseblaa",
+        "langaermet": true
+      },
+      {
+        "navn": "FSBN",
+        "farve": "flerfarvet",
+        "langaermet": false
+      },
+      {
+        "navn": "Our legacy silke",
+        "farve": "graa",
+        "langaermet": true
+      },
+      {
+        "navn": "B.B fashion silke",
+        "farve": "moerkeblaa",
+        "langaermet": true
+      },
+      {
+        "navn": "B.B fashion silke",
+        "farve": "sort",
+        "langaermet": true
+      },
+      {
+        "navn": "B.B fashion silke",
+        "farve": "roed",
+        "langaermet": true
+      },
+      {
+        "navn": "Ravi Sehgal silke",
+        "farve": "hvid",
+        "langaermet": true
+      },
+      {
+        "navn": "Acne ternet",
+        "farve": "hvid",
+        "langaermet": true
+      }
+    }
+  ]
 }

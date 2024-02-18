@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program\\t\u00F8jprogram.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\hovedbeklaedning.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Json\\hovedbeklaedning.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\sko.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Json\\sko.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\bukser.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2S0\\Source\\Repos\\Carltoso\\T-jprogram\\Json\\bukser.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Json\\bukser.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\troejer.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Json\\troejer.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\hovedbeklaedning.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Json\\hovedbeklaedning.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sko.json",
+              "DocumentMoniker": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\sko.json",
+              "RelativeDocumentMoniker": "Json\\sko.json",
+              "ToolTip": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\sko.json",
+              "RelativeToolTip": "Json\\sko.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-18T14:37:41.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "troejer.json",
+              "DocumentMoniker": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\troejer.json",
+              "RelativeDocumentMoniker": "Json\\troejer.json",
+              "ToolTip": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\troejer.json",
+              "RelativeToolTip": "Json\\troejer.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-18T11:54:09.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +74,7 @@
               "RelativeDocumentMoniker": "Json\\t-shirts.json",
               "ToolTip": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\t-shirts.json",
               "RelativeToolTip": "Json\\t-shirts.json",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-02-14T19:16:24.399Z",
               "EditorCaption": ""
@@ -53,7 +87,7 @@
               "RelativeDocumentMoniker": "Program\\t\u00F8jprogram.py",
               "ToolTip": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Program\\t\u00F8jprogram.py",
               "RelativeToolTip": "Program\\t\u00F8jprogram.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-02-14T10:18:43.112Z",
               "EditorCaption": ""
@@ -62,24 +96,24 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "bukser.json",
-              "DocumentMoniker": "C:\\Users\\2S0\\Source\\Repos\\Carltoso\\T-jprogram\\Json\\bukser.json",
+              "DocumentMoniker": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\bukser.json",
               "RelativeDocumentMoniker": "Json\\bukser.json",
-              "ToolTip": "C:\\Users\\2S0\\Source\\Repos\\Carltoso\\T-jprogram\\Json\\bukser.json",
+              "ToolTip": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\bukser.json",
               "RelativeToolTip": "Json\\bukser.json",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEcAAAAPAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-02-14T10:18:36.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "hovedbeklaedning.json",
               "DocumentMoniker": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\hovedbeklaedning.json",
               "RelativeDocumentMoniker": "Json\\hovedbeklaedning.json",
               "ToolTip": "C:\\Users\\2S0\\source\\repos\\Carltoso\\T-jprogram\\Json\\hovedbeklaedning.json",
               "RelativeToolTip": "Json\\hovedbeklaedning.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-02-14T19:02:58.804Z",
               "EditorCaption": ""
