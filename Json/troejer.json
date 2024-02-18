@@ -48,7 +48,7 @@
       "farve": "test"
     }
 
-  ]
+  ],
 
 
   "sweater": [
@@ -86,7 +86,7 @@
       "navn": "North by 66",
       "farve": "sort",
       "varme": 7
-    },
+    }
 
   ]
 }

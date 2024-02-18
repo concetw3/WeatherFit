@@ -20,7 +20,7 @@
       "farve": "hvid",
       "langaermet": false
     },
-    {<
+    {
       "navn": "Loesriv Lolland",
       "farve": "sort",
       "langaermet": false
@@ -155,12 +155,8 @@
       "farve": "lilla",
       "langaermet": false
     }
-
-
-
-  ]
+  ],
   "skjorter": [
-    {
       {
         "navn": "H&M svampe",
         "farve": "lilla",
@@ -236,6 +232,5 @@
         "farve": "hvid",
         "langaermet": true
       }
-    }
   ]
 }

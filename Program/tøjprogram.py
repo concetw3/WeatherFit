@@ -43,6 +43,8 @@ response = requests.get("https://api.met.no/weatherapi/locationforecast/2.0/comp
 #Lave det til en dict
 data = json.loads(response.text)
 
+properties = data['properties']
+timeseries = properties['timeseries']
 
 #Funktion til at søge i dict
 def findkeys(node, kv):
@@ -95,7 +97,7 @@ def kl12():
     iso_date_kl12_kombineret = ''.join([iso_date_kl12,iso_date_kl12z])
 
     time = list(findkeys(timeseries, 'time'))
-    Klokken18 = time.index(iso_date_kl18_kombineret)
+    Klokken18 = time.index(iso_date_kl12_kombineret)
 
     Access_properties = data['properties']
     Access_timeseries = Access_properties['timeseries']
@@ -105,7 +107,7 @@ def kl12():
 
     Temperatur = Access_temperatur
     print("The temperature at 18pm will be " + str(Temperatur) + " degrees celcius outside")
-    return Klokken12
+   
 
 def kl18():
     global Klokken18
@@ -158,6 +160,7 @@ def outfit():
     outfit.append(tshirt())
     outfit.append(troejer())
     outfit.append(regntoej()) 
+    outfit = json.dumps(outfit, indent=4, sort_keys=True)
     print(outfit)
 
 
