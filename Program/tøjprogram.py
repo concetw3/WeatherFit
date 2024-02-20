@@ -41,8 +41,9 @@ def troejer():
 def tshirt():
     with open('Json\\t-shirts.json') as f:
         t_shirt_data = json.load(f)
-        t_shirt_data = random.choice(t_shirt_data['t-shirts'])
-        return t_shirt_data
+        t_shirt_data2 = random.choice(t_shirt_data['t-shirts'])
+        t_shirt_data_3 = t_shirt_data['t-shirts']
+        return t_shirt_data2
 
 
 def regntoej():

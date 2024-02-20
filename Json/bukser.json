@@ -28,7 +28,7 @@
     {
       "navn": "Kappa",
       "lange_bukser": true,
-      "farve": "blaa og gule",
+      "farve": ["blaa", "gule"],
       "varme": 3
     },
     {
@@ -81,7 +81,7 @@
   "shorts": [
     {
       "navn": "Kappa",
-      "farve": "lyseroed og sort"
+      "farve": [ "lyseroed", "sort" ]
     },
     {
       "navn": "Bjorn borg",
@@ -92,16 +92,8 @@
       "farve": "sort"
     },
     {
-      "navn": "test2",
-      "farve": "hvid"
-    },
-    {
-      "navn": "test2",
-      "farve": "hvid"
-    },
-    {
       "navn": "unbranded",
-      "farve": "lyseroed"
+      "farve": [ "lyseroed", "sort" ]
     },
     {
       "navn": "Nike dri-fit",
@@ -109,7 +101,7 @@
     },
     {
       "navn": "All sports",
-      "farve": "hvid"
+      "farve": [ "hvid", "blaa" ]
     },
     {
       "navn": "klippet JKS arbejdsbukser",

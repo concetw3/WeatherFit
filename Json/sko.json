@@ -1,19 +1,13 @@
 {
   "sko": [
     {
-      "navn": "",
-      "farve": "",
-      "vandtaette": false,
-      "sandaler": false
-    },
-    {
       "navn": "Elten arbejdssko",
       "farve": "sort",
       "vandtaette": false,
       "sandaler": false
     },
     {
-      "navn": "Colombia",
+      "navn": "Colombia Sandaler",
       "farve": "sort",
       "vandtaette": false,
       "sandaler": true
@@ -55,7 +49,7 @@
       "sandaler": false
     },
     {
-      "navn": "Nike air max 90",
+      "navn": "Nike air max 95",
       "farve": "sort",
       "vandtaette": false,
       "sandaler": false
@@ -68,7 +62,7 @@
     },
     {
       "navn": "Kappa badesandaler",
-      "farve": "sort",
+      "farve": [ "sort", "hvid" ],
       "vandtaette": false,
       "sandaler": true
     }

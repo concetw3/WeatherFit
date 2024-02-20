@@ -9,6 +9,11 @@
       "navn": "Uponor kasket",
       "farve": "moerkeblaa",
       "varme": 0
+    },
+    {
+      "navn": "Rockstars and angels",
+      "farve": ["roed", "moerkeblaa", "hvid"],
+      "varme": 0
     }
 
   ],

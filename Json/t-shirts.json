@@ -2,12 +2,12 @@
   "t-shirts": [
     {
       "navn": "modificeret commes ces garcons - embrace nothing - nothing is nothing",
-      "farve": "hvid",
+      "farve": [ "hvid", "sort" ],
       "langaermet": false
     },
     {
       "navn": "Dolce & Gabbana",
-      "farve": "moerkeblaa og lyseblaa",
+      "farve": ["moerkeblaa", "lyseblaa"],
       "langaermet": true
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "navn": "Boundaries",
-      "farve": "hvid",
+      "farve": ["hvid", "sort"],
       "langaermet": false
     },
     {
@@ -32,22 +32,22 @@
     },
     {
       "navn": "Eriksminde efterskole 11/12",
-      "farve": "sort",
+      "farve": ["sort", "hvid"],
       "langaermet": false
     },
     {
       "navn": "L.L.L.L",
-      "farve": "sort",
+      "farve": "blandede",
       "langaermet": false
     },
     {
       "navn": "Anholt kro - t-shirt",
-      "farve": "orange",
+      "farve": ["orange", "sort"],
       "langaermet": false
     },
     {
       "navn": "Anholt Kro - polo",
-      "farve": "orange",
+      "farve": ["orange", "sort"],
       "langaermet": false
     },
     {
@@ -57,22 +57,22 @@
     },
     {
       "navn": "Broder",
-      "farve": "sort",
+      "farve": ["sort", "hvid"],
       "langaermet": false
     },
     {
       "navn": "Janushoved",
-      "farve": "hvid",
+      "farve": ["hvid","sort"],
       "langaermet": false
     },
     {
       "navn": "Stockholm surfboard club",
-      "farve": "gul",
+      "farve": ["gul", "blandede"],
       "langaermet": true
     },
     {
       "navn": "Bad Axe throwing",
-      "farve": "sort",
+      "farve": ["sort", "roed"],
       "langaermet": false
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "navn": "Pafund til rigets ende",
-      "farve": "hvid",
+      "farve": ["hvid", "sort"],
       "langaermet": false
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "navn": "FCK",
-      "farve": "hvid",
+      "farve": ["hvid", "blaa"],
       "langaermet": false
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "navn": "I love Nyhavn",
-      "farve": "beige",
+      "farve": ["beige", "guld"],
       "langaermet": false
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "navn": "puma gucci single",
-      "farve": "sort",
+      "farve": ["sort", "blaa"],
       "langaermet": false
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "navn": "Exact science",
-      "farve": "moerkeblaa",
+      "farve": ["moerkeblaa", "sort"],
       "langaermet": false
     },
     {
@@ -137,29 +137,29 @@
     },
     {
       "navn": "Armor Lux",
-      "farve": "moerkeroed",
+      "farve": ["moerkeroed", "moerkeblaa"],
       "langaermet": true
     },
     {
       "navn": "Stanley Stella ",
-      "farve": "lilla",
+      "farve": ["lilla", "hvid"],
       "langaermet": false
     }
   ],
   "skjorter": [
       {
         "navn": "H&M svampe",
-        "farve": "lilla",
+        "farve": ["lilla", "hvid"],
         "langaermet": false
       },
       {
         "navn": "Butter",
-        "farve": "flerfarvet",
+        "farve": "blandede",
         "langaermet": false
       },
       {
         "navn": "Roberto Biagini",
-        "farve": "flerfarvet",
+        "farve": "blandede",
         "langaermet": true
       },
       {
@@ -169,7 +169,7 @@
       },
       {
         "navn": "Our legacy denim",
-        "farve": "denim",
+        "farve": "graa",
         "langaermet": true
       },
       {
@@ -189,7 +189,7 @@
       },
       {
         "navn": "FSBN",
-        "farve": "flerfarvet",
+        "farve": "blandede",
         "langaermet": false
       },
       {
@@ -219,7 +219,7 @@
       },
       {
         "navn": "Acne ternet",
-        "farve": "hvid",
+        "farve": [ "hvid", "graa" ],
         "langaermet": true
       }
   ]

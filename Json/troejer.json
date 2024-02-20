@@ -3,12 +3,12 @@
 
     {
       "navn": "Hardstylers.dk",
-      "farve": "sort",
+      "farve": ["sort", "hvid"],
       "varme": 5
     },
     {
       "navn": "Kappa tracktop",
-      "farve": "Lyseblaa og gul",
+      "farve": ["lyseblaa", "gul"],
       "varme": 3
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "navn": "Kappa",
-      "farve": "sort",
+      "farve": ["sort", "lilla"],
       "varme": 5
     },
     {
@@ -45,10 +45,10 @@
     },
     {
       "navn": "Made in Heaven",
-      "farve": "lyserroed",
+      "farve": ["lyseroed", "hvid"],
       "langaermet": true
     }
-
+    
 
 
 
@@ -78,7 +78,7 @@
     },
     {
       "navn": "Dale of norway",
-      "farve": "groen",
+      "farve": ["groen", "roed", "hvid"],
       "varme": 9
     },
     {
