@@ -17,6 +17,8 @@ def get_next_hour_precipitation(timeseries):
     next_hour_data = timeseries[0]['data']['next_1_hours']
     return next_hour_data['details']['precipitation_amount'] if next_hour_data else 0
 
+
+
 def get_current_temperature(timeseries):
     return timeseries[0]['data']['instant']['details']['air_temperature']
 
