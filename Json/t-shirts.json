@@ -6,8 +6,18 @@
       "langaermet": false
     },
     {
+      "navn": "Kappa",
+      "farve": [ "sort", "lilla" ],
+      "langaermet": true
+    },
+    {
+      "navn": "Made in Heaven",
+      "farve": [ "lyseroed", "hvid" ],
+      "langaermet": true
+    },
+    {
       "navn": "Dolce & Gabbana",
-      "farve": ["moerkeblaa", "lyseblaa"],
+      "farve": [ "moerkeblaa", "lyseblaa" ],
       "langaermet": true
     },
     {
@@ -17,7 +27,7 @@
     },
     {
       "navn": "Boundaries",
-      "farve": ["hvid", "sort"],
+      "farve": [ "hvid", "sort" ],
       "langaermet": false
     },
     {
@@ -32,7 +42,7 @@
     },
     {
       "navn": "Eriksminde efterskole 11/12",
-      "farve": ["sort", "hvid"],
+      "farve": [ "sort", "hvid" ],
       "langaermet": false
     },
     {
@@ -42,12 +52,12 @@
     },
     {
       "navn": "Anholt kro - t-shirt",
-      "farve": ["orange", "sort"],
+      "farve": [ "orange", "sort" ],
       "langaermet": false
     },
     {
       "navn": "Anholt Kro - polo",
-      "farve": ["orange", "sort"],
+      "farve": [ "orange", "sort" ],
       "langaermet": false
     },
     {
@@ -57,22 +67,22 @@
     },
     {
       "navn": "Broder",
-      "farve": ["sort", "hvid"],
+      "farve": [ "sort", "hvid" ],
       "langaermet": false
     },
     {
       "navn": "Janushoved",
-      "farve": ["hvid","sort"],
+      "farve": [ "hvid", "sort" ],
       "langaermet": false
     },
     {
       "navn": "Stockholm surfboard club",
-      "farve": ["gul", "blandede"],
+      "farve": [ "gul", "blandede" ],
       "langaermet": true
     },
     {
       "navn": "Bad Axe throwing",
-      "farve": ["sort", "roed"],
+      "farve": [ "sort", "roed" ],
       "langaermet": false
     },
     {
@@ -82,7 +92,7 @@
     },
     {
       "navn": "Pafund til rigets ende",
-      "farve": ["hvid", "sort"],
+      "farve": [ "hvid", "sort" ],
       "langaermet": false
     },
     {
@@ -92,7 +102,7 @@
     },
     {
       "navn": "FCK",
-      "farve": ["hvid", "blaa"],
+      "farve": [ "hvid", "blaa" ],
       "langaermet": false
     },
     {
@@ -102,7 +112,7 @@
     },
     {
       "navn": "I love Nyhavn",
-      "farve": ["beige", "guld"],
+      "farve": [ "beige", "guld" ],
       "langaermet": false
     },
     {
@@ -117,7 +127,7 @@
     },
     {
       "navn": "puma gucci single",
-      "farve": ["sort", "blaa"],
+      "farve": [ "sort", "blaa" ],
       "langaermet": false
     },
     {
@@ -127,7 +137,7 @@
     },
     {
       "navn": "Exact science",
-      "farve": ["moerkeblaa", "sort"],
+      "farve": [ "moerkeblaa", "sort" ],
       "langaermet": false
     },
     {
@@ -137,12 +147,12 @@
     },
     {
       "navn": "Armor Lux",
-      "farve": ["moerkeroed", "moerkeblaa"],
+      "farve": [ "moerkeroed", "moerkeblaa" ],
       "langaermet": true
     },
     {
       "navn": "Stanley Stella ",
-      "farve": ["lilla", "hvid"],
+      "farve": [ "lilla", "hvid" ],
       "langaermet": false
     }
   ],

@@ -22,11 +22,6 @@
       "varme": 5
     },
     {
-      "navn": "Kappa",
-      "farve": ["sort", "lilla"],
-      "varme": 5
-    },
-    {
       "navn": "H2O",
       "farve": "creme",
       "varme": 6
@@ -42,15 +37,8 @@
     {
       "navn": "Bruuns Bazar",
       "farve": "sort"
-    },
-    {
-      "navn": "Made in Heaven",
-      "farve": ["lyseroed", "hvid"],
-      "langaermet": true
     }
-    
-
-
+ 
 
   ],
 
