@@ -61,32 +61,33 @@ def jakker():
     temperatur = get_current_temperature(timeseries)
     with open('Json\\jakker.json') as f:
         jakker_data = json.load(f)
-        
-    if temperatur < -5:
-        jakker_data = json.load(f)
-        vinterjakke_min_varme = 8  
         find_varme_keys = list(findkeys(jakker_data, 'varme'))
-        #print(find_varme_keys)
-        sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= vinterjakke_min_varme]
-       #print(sorter_varme_keys)
-        tilfaeldige_keys = random.choice(sorter_varme_keys) 
-       #print(tilfaeldige_keys)
-        jakke_data_varme = jakker_data['jakker'][tilfaeldige_keys]
-        return (jakke_data_varme)
-    
-        
-
     if next_hour_precipitation >= 1:
         find_vandtaette_keys = list(findkeys(jakker_data, 'vandtaette'))
         sorter_vandtaette_keys = [i for i, x in enumerate(find_vandtaette_keys) if x]
         tilfaeldige_keys = random.choice(sorter_vandtaette_keys)   
-        jakke_data_vandtaette = jakker_data[tilfaeldige_keys]
-        return jakke_data_vandtaette
+        jakke_data = jakker_data[tilfaeldige_keys]
+        jakke_data
     else:
-        jakker_data = random.choice(jakker_data['jakker'])
-        return jakker_data
-    
+        if temperatur < -5:
+            vinterjakke_min_varme = 8  
+            sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= vinterjakke_min_varme]
+            tilfaeldige_keys = random.choice(sorter_varme_keys) 
+            jakke_data_varme = jakker_data['jakker'][tilfaeldige_keys]
+            return jakke_data_varme
+        elif 0 <= temperatur <= 10:
+            sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 4 <= num <= 7]
+            tilfaeldige_keys = random.choice(sorter_varme_keys) 
+            jakke_data_varme = jakker_data['jakker'][tilfaeldige_keys]
+            return jakke_data_varme
+        else:
+            if 10 <= temperatur <= 40:
+                sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if  0 <= num <= 4]
+                tilfaeldige_keys = random.choice(sorter_varme_keys) 
+                jakke_data_varme = jakker_data['jakker'][tilfaeldige_keys]
+                return jakke_data_varme
 
+    
 
 def troejer():
      with open('Json\\troejer.json') as f:
@@ -99,9 +100,10 @@ def troejer():
         if current_temperature >= 3:
             troejer_data_rnd = random.choice(troejer_data['troejer'])
             return troejer_data_rnd
-        if current_temperature <= 2:
-            troejer_data_sweater = random.choice(troejer_data['sweater'])
-            return troejer_data_sweater,troejer_data_rnd
+        else:
+            if current_temperature <= 2:
+                troejer_data_sweater = random.choice(troejer_data['sweater'])
+                return troejer_data_sweater,troejer_data_rnd
 
 
 def tshirt():
@@ -144,15 +146,10 @@ def kl12(timeseries):
 
 
 def zeroto10degrees(timeseries):
-    data_klokken12 = kl12(timeseries)
-    outfit = []
-    if 0 <= data_klokken12 <= 10:
-        outfit.append(hovedbeklaedning())
-        outfit.append(tshirt())
-        outfit.append(troejer())
-        outfit.append(jakker())
-        outfit.append(bukser())
-        outfit.append(sko())
+    outfit = []   
+    kategorier = [hovedbeklaedning, tshirt, troejer, jakker, bukser, sko]
+    for i in kategorier:
+        outfit.append(i())
     print(json.dumps(outfit, indent=4))
         
             
@@ -172,9 +169,10 @@ def main():
 
     data_klokken_12 = kl12(timeseries)
     outfit10 = zeroto10degrees(timeseries)
-    #print(f"temperatur er lige nu {data_klokken_12}")
+    print(f"temperatur er lige nu {data_klokken_12}")
     
-   ## print(f"The date and time is {datetime.now().replace(microsecond=0)}")
+    
+    ##print(f"The date and time is {datetime.now().replace(microsecond=0)}")
     #print(f"The temperature is {current_temperature} degrees Celsius outside right now")
     #print(f"The temperature at 12 will be {data_klokken_12} degrees Celsius outside ")
     
@@ -182,6 +180,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-sko()
