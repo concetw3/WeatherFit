@@ -199,3 +199,32 @@ outfit()
 
 
 
+ def slipsmaaske():
+        jakker_data = jakker()
+        troejer_data = troejer()
+        print(troejer_data)
+        slips_data = accessories()
+        find_blazer = list(findkeys(troejer_data, 'blazer'))
+        find_lang_jakke = list(findkeys(jakker_data, 'lang'))
+        print(f'printer status paa find blazer variabel {find_blazer}')
+        if any(find_blazer):
+            sorter_lange_jakker = [i for i, x in enumerate(find_lang_jakke) if x]
+            print(f'printer true fordi det er en lang jakke{sorter_lange_jakker}')
+            tilfaeldige_keys = random.choice(sorter_lange_jakker)
+            print(jakker_data['jakker'][tilfaeldige_keys])
+            return random.choice(slips_data['slips']),jakker_data['jakker'][tilfaeldige_keys]
+
+
+
+
+def langjakke():
+    troejer_data = troejer()
+    print(troejer_data)
+    soeglangjakke = list(findkeys(troejer_data, 'blazer'))
+    print(type(soeglangjakke))
+    if any(soeglangjakke):
+        print(f'{soeglangjakke} er sandt')
+    else:
+        print(f'{soeglangjakke} er ikke sandt')
+
+slipsmaaske()

@@ -3,42 +3,82 @@
 
     {
       "navn": "Hardstylers.dk",
-      "farve": ["sort", "hvid"],
-      "varme": 5
+      "farve": [ "sort", "hvid" ],
+      "erhvervelse": ["fundet"],
+      "varme": 5,
+      "stil": "print",
+      "blazer": false
     },
     {
       "navn": "Kappa tracktop",
-      "farve": ["lyseblaa", "gul"],
-      "varme": 3
+      "farve": [ "lyseblaa", "gul" ],
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "varme": 3,
+      "stil": "plain",
+      "blazer": false
     },
     {
       "navn": "Mascot haettetroeje",
       "farve": "groen",
-      "varme": 5
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "varme": 5,
+      "stil": "plain",
+      "blazer": false
     },
     {
       "navn": "Superdry",
       "farve": "gul",
-      "varme": 5
+      "erhvervelse": ["fundet"],
+      "varme": 5,
+      "stil": "plain",
+      "blazer": false
     },
     {
       "navn": "H2O",
       "farve": "creme",
-      "varme": 6
+      "erhvervelse": ["faaet"],
+      "varme": 6,
+      "stil": "plain",
+      "blazer": false
+
+    },
+    {
+      "navn": "Metallifuckinga haettetroeje",
+      "farve": "sort",
+      "erhvervelse": ["koebt","nyt","internettet"],
+      "varme": 5,
+      "stil": "print",
+      "blazer": false
     },
     {
       "navn": "Inspired new york blazer",
-      "farve": "sort"
+      "erhvervelse": ["gave","nyt","butik"],
+      "farve": "sort",
+      "stil": "plain",
+      "blazer": true
     },
     {
       "navn": "Device blazer",
-      "farve": "sort"
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "farve": "sort",
+      "stil": "plain",
+      "blazer": true
     },
     {
       "navn": "Bruuns Bazar",
-      "farve": "sort"
+      "erhvervelse": ["koebt","brugt","internettet","auktion"],
+      "farve": "sort",
+      "stil": "plain",
+      "blazer": true
+    },
+    {
+      "navn": "JKS arbejdstroeje m. malingpletter",
+      "erhvervelse": ["faaet"],
+      "farve": "sort",
+      "stil": "print",
+      "blazer": false
     }
- 
+
 
   ],
 
@@ -46,37 +86,51 @@
   "sweater": [
     {
       "navn": "SNS",
+      "erhvervelse": ["faaet","nyt","gave"],
       "farve": "petroleum",
+      "stil": "plain",
       "varme": 8
     },
     {
       "navn": "Andersen & Andersen",
+      "erhvervelse": ["koebt","tilbud","butik"],
       "farve": "brun",
+      "stil": "plain",
       "varme": 9
     },
     {
       "navn": "SNS",
+      "erhvervelse": ["faaet","nyt","gave"],
       "farve": "moerkeblaa",
+      "stil": "plain",
       "varme": 7
     },
     {
       "navn": "Norse projects",
+      "erhvervelse": ["faaet","nyt","gave"],
       "farve": "graa",
+      "stil": "plain",
       "varme": 7
     },
     {
       "navn": "Dale of norway",
-      "farve": ["groen", "roed", "hvid"],
+      "erhvervelse": ["arvet"],
+      "farve": [ "groen", "roed", "hvid" ],
+      "stil": "moenster",
       "varme": 9
     },
     {
       "navn": "Hjemmestrik",
+      "erhvervelse": ["faaet","brugt"],
       "farve": "sort",
+      "stil": "plain",
       "varme": 6
     },
     {
       "navn": "North by 66",
+      "erhvervelse": ["faaet","butik","nyt"],
       "farve": "sort",
+      "stil": "plain",
       "varme": 7
     }
 

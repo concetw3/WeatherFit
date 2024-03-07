@@ -1,0 +1,73 @@
+{
+	"solbriller": [
+
+		{
+			"navn": "Tom Ford",
+			"erhvervelse": ["bytte"],
+			"farve": "blaa"
+		}
+
+	],
+
+	"slips": [
+
+		{
+			"navn": "Fadoel slips",
+			"erhvervelse": ["koebt","genbrug","brugt"],
+			"farve": [ "sort", "gul" ]
+
+		},
+		{
+			"navn": "magnus slips",
+			"erhvervelse": ["stjaalet","laant"],
+			"farve": "sort"
+		},
+		{
+			"navn": "slips lavet til workshop",
+			"erhvervelse": ["selvlavet"],
+			"farve": "blandede"
+		}
+
+	],
+	"handsker": [
+		{
+			"navn": "Thinsulate - aqua trail",
+			"erhvervelse": ["koebt","genbrug","brugt"],
+			"farve": [ "sort", "graa", "hvid" ],
+			"varme": 6
+		},
+		{
+			"navn": "Hestra",
+			"erhvervelse": ["gave","nyt","butik"],
+			"farve": "sort",
+			"varme": 8
+		},
+		{
+			"navn": "arbejdshandsker med knopper",
+			"erhvervelse": ["fundet"],
+			"farve": "graa",
+			"varme": 3
+		},
+		{
+			"navn": "maxiflex",
+			"erhvervelse": ["fundet"],
+			"farve": "graa",
+			"varme": 3
+		}
+	],
+
+	"skiundertoej": [
+		{
+			"navn": "bukser",
+			"erhvervelse": ["koebt","nyt","butik"],
+			"farve": "sort"
+		},
+		{
+			"navn": "trøje",
+			"erhvervelse": ["gave","nyt","butik"],
+			"farve": "sort"
+		}
+	]
+
+
+}

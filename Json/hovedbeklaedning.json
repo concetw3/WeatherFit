@@ -2,17 +2,20 @@
   "kasketter": [
     {
       "navn": "Bier macht schon kasket",
+      "erhvervelse": ["faaet","brugt"],
       "farve": "sort",
       "varme": 0
     },
     {
       "navn": "Uponor kasket",
+      "erhvervelse": ["koebt","brugt","butik"],
       "farve": "moerkeblaa",
       "varme": 0
     },
     {
       "navn": "Rockstars and angels",
-      "farve": ["roed", "moerkeblaa", "hvid"],
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "farve": [ "roed", "moerkeblaa", "hvid" ],
       "varme": 0
     }
 
@@ -20,9 +23,42 @@
   "huer": [
     {
       "navn": "beechfield",
+      "erhvervelse": ["koebt","brugt","genbrug"],
       "farve": "moerkeblaa",
-      "varme": 0
+      "varme": 6
+    },
+    {
+      "navn": "san fransisco",
+      "erhvervelse": ["faaet","brugt"],
+      "farve": [ "moerkeblaa", "orange" ],
+      "varme": 5
+    },
+    {
+      "navn": "Mil-tec",
+      "erhvervelse": ["brugt","koebt","genbrug"],
+      "farve": "sort",
+      "varme": 6
+    },
+    {
+      "navn": "Sport fashion",
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "farve": "sort",
+      "varme": 5
+    },
+    {
+      "navn": "hjemmestrikket",
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "farve": "hvid",
+      "varme": 4
+    },
+    {
+      "navn": "Asta hjemmestrikket hue",
+      "erhvervelse": ["gave","hjemmelavet"],
+      "farve": [ "groen", "guld" ],
+      "varme": 6
     }
+
+
   ]
 
 }

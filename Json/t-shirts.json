@@ -3,234 +3,325 @@
     {
       "navn": "modificeret commes ces garcons - embrace nothing - nothing is nothing",
       "farve": [ "hvid", "sort" ],
+      "erhvervelse": ["fundet","hjemmelavet"],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Kappa",
       "farve": [ "sort", "lilla" ],
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "stil": "striber",
       "langaermet": true
     },
     {
       "navn": "Made in Heaven",
       "farve": [ "lyseroed", "hvid" ],
+      "erhvervelse": ["koebt","brugt", "genbrug"],
+      "stil": "striber",
       "langaermet": true
     },
     {
       "navn": "Dolce & Gabbana",
       "farve": [ "moerkeblaa", "lyseblaa" ],
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "stil": "stiber",
       "langaermet": true
     },
     {
       "navn": "DR3 CS",
+      "erhvervelse": ["vundet"],
       "farve": "hvid",
+      "stil": "print",
       "langaermet": false
     },
     {
-      "navn": "Boundaries",
+      "navn": "Boundaries band t-shirt",
+      "erhvervelse": ["koebt","nyt"],
       "farve": [ "hvid", "sort" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Loesriv Lolland",
+      "erhvervelse": ["hjemmelavet"],
       "farve": "sort",
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Lever det her liv sindssyge liv som flok tror jeg tager serioest",
+      "erhvervelse": ["koebt","brugt","genbrug","hjemmelavet"],
       "farve": "blandede",
+      "stil": [ "moenster", "print" ],
       "langaermet": false
     },
     {
       "navn": "Eriksminde efterskole 11/12",
+      "erhvervelse": ["faaet"],
       "farve": [ "sort", "hvid" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "L.L.L.L",
+      "erhvervelse": ["faaet"],
       "farve": "blandede",
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Anholt kro - t-shirt",
+      "erhvervelse": ["stjaalet","arbejde"],
       "farve": [ "orange", "sort" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Anholt Kro - polo",
+      "erhvervelse": ["stjaalet","arbejde"],
       "farve": [ "orange", "sort" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "G-star raw",
+      "erhvervelse": ["koebt","brugt","genbrug"],
       "farve": "graa",
+      "stil": "print",
       "langaermet": true
     },
     {
       "navn": "Broder",
+      "erhvervelse": ["koebt","nyt"],
       "farve": [ "sort", "hvid" ],
+      "stil": "stil",
       "langaermet": false
     },
     {
       "navn": "Janushoved",
+      "erhvervelse": ["koebt","nyt"],
       "farve": [ "hvid", "sort" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Stockholm surfboard club",
+      "erhvervelse": ["koebt","nyt","tilbud","internettet"],
       "farve": [ "gul", "blandede" ],
+      "stil": "print",
       "langaermet": true
     },
     {
       "navn": "Bad Axe throwing",
+      "erhvervelse": ["faaet"],
       "farve": [ "sort", "roed" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Divided tank top",
+      "erhvervelse": ["fundet"],
       "farve": "sort",
+      "stil": "plain",
       "langaermet": false
     },
     {
       "navn": "Pafund til rigets ende",
+      "erhvervelse": ["koebt","nyt","internettet"],
       "farve": [ "hvid", "sort" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Vi har travlt simba",
+      "erhvervelse": ["koebt","nyt","butik","hjemmelavet"],
       "farve": "creme",
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "FCK",
+      "erhvervelse": ["faaet","nyt"],
       "farve": [ "hvid", "blaa" ],
+      "stil": [ "print", "brodering" ],
       "langaermet": false
     },
     {
       "navn": "team easy on",
-      "farve": "lyseroed",
+      "erhvervelse": ["stjaalet"],
+      "farve": [ "lyseroed", "orange" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "I love Nyhavn",
+      "erhvervelse": ["fundet","hjemmelavet"],
       "farve": [ "beige", "guld" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "neutral",
+      "erhvervelse": ["koebt","nyt","marked","hjemmelavet"],
       "farve": "moerkeblaa",
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Xofako - oys and ripped just something about",
+      "erhvervelse": ["koebt","brugt","genbrug"],
       "farve": "lilla",
+      "stil": "print",
       "langaermet": true
     },
     {
       "navn": "puma gucci single",
+      "erhvervelse": ["faaet","nyt","hjemmelavet"],
       "farve": [ "sort", "blaa" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Bevar Woodstock",
+      "erhvervelse": ["fundet"],
       "farve": "groen",
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Exact science",
+      "erhvervelse": ["fundet"],
       "farve": [ "moerkeblaa", "sort" ],
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Bevar Christiania",
+      "erhvervelse": ["fundet"],
       "farve": "groen",
+      "stil": "print",
       "langaermet": false
     },
     {
       "navn": "Armor Lux",
+      "erhvervelse": ["gave","koebt","nyt","butik"],
       "farve": [ "moerkeroed", "moerkeblaa" ],
+      "stil": "stribet",
       "langaermet": true
     },
     {
       "navn": "Stanley Stella ",
+      "erhvervelse": ["koebt","nyt","internettet","hjemmelavet"],
       "farve": [ "lilla", "hvid" ],
+      "stil": "print",
       "langaermet": false
     }
   ],
   "skjorter": [
-      {
-        "navn": "H&M svampe",
-        "farve": ["lilla", "hvid"],
-        "langaermet": false
-      },
-      {
-        "navn": "Butter",
-        "farve": "blandede",
-        "langaermet": false
-      },
-      {
-        "navn": "Roberto Biagini",
-        "farve": "blandede",
-        "langaermet": true
-      },
-      {
-        "navn": "Ralph Lauren",
-        "farve": "hvid",
-        "langaermet": true
-      },
-      {
-        "navn": "Our legacy denim",
-        "farve": "graa",
-        "langaermet": true
-      },
-      {
-        "navn": "wrangler",
-        "farve": "moerkeblaa",
-        "langaermet": true
-      },
-      {
-        "navn": "Ravi Sehgal formel",
-        "farve": "hvid",
-        "langaermet": true
-      },
-      {
-        "navn": "Ravi Sehgal formel",
-        "farve": "lyseblaa",
-        "langaermet": true
-      },
-      {
-        "navn": "FSBN",
-        "farve": "blandede",
-        "langaermet": false
-      },
-      {
-        "navn": "Our legacy silke",
-        "farve": "graa",
-        "langaermet": true
-      },
-      {
-        "navn": "B.B fashion silke",
-        "farve": "moerkeblaa",
-        "langaermet": true
-      },
-      {
-        "navn": "B.B fashion silke",
-        "farve": "sort",
-        "langaermet": true
-      },
-      {
-        "navn": "B.B fashion silke",
-        "farve": "roed",
-        "langaermet": true
-      },
-      {
-        "navn": "Ravi Sehgal silke",
-        "farve": "hvid",
-        "langaermet": true
-      },
-      {
-        "navn": "Acne ternet",
-        "farve": [ "hvid", "graa" ],
-        "langaermet": true
-      }
+    {
+      "navn": "H&M svampe",
+      "farve": [ "lilla", "hvid" ],
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "stil": "print",
+      "langaermet": false
+    },
+    {
+      "navn": "Butter",
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "farve": "blandede",
+      "langaermet": false
+    },
+    {
+      "navn": "Roberto Biagini",
+      "erhvervelse": ["koebt","brugt","marked"],
+      "farve": "blandede",
+      "stil": "striber",
+      "langaermet": true
+    },
+    {
+      "navn": "Ralph Lauren",
+      "erhvervelse": ["gave","nyt","butik"],
+      "farve": "hvid",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "Our legacy denim",
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "farve": "graa",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "wrangler",
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "farve": "moerkeblaa",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "Ravi Sehgal formel",
+      "erhvervelse": ["koebt","nyt","skraeddersyet"],
+      "farve": "hvid",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "Ravi Sehgal formel",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "lyseblaa",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "FSBN",
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": "blandede",
+      "stil": "print",
+      "langaermet": false
+    },
+    {
+      "navn": "Our legacy silke",
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": "graa",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "B.B fashion silke",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "moerkeblaa",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "B.B fashion silke",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "sort",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "B.B fashion silke",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "roed",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "Ravi Sehgal silke",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "hvid",
+      "stil": "plain",
+      "langaermet": true
+    },
+    {
+      "navn": "Acne ternet",
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": [ "hvid", "graa" ],
+      "stil": "ternet",
+      "langaermet": true
+    }
   ]
 }

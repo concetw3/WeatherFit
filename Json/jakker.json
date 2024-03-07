@@ -1,62 +1,70 @@
 {
   "jakker": [
-    
-      {
-        "navn": "North Face dunjakke",
-        "farve": "sort",
-        "vandtaet": false,
-        "varme": 10,
-        "lang": false
-      },
-      {
-        "navn": "Henri Lloyd oilskin",
-        "farve": "groen",
-        "vandtaet": false,
-        "varme": 6,
-        "lang": true
-      },
-      {
-        "navn": "Cressida pels",
-        "farve": "moerkebrun",
-        "vandtaet": false,
-        "varme": 8,
-        "lang": false 
-      },
-      {
-        "navn": "H2O regnjakke",
-        "farve": "sort",
-        "vandtaet": false,
-        "varme": 2,
-        "lang": false  
-      },
-      {
-        "navn": "Laederjakke",
-        "farve": "sort",
-        "vandtaet": false,
-        "varme": 5,
-        "lang": true
-      },
-      {
-        "navn": "Moebeltransport danmark",
-        "farve": "roed",
-        "vandtaet": false,
-        "varme": 5,
-        "lang": true
-      },
-      {
-        "navn": "J guide",
-        "farve": "graa",
-        "vandtaet": false,
-        "varme": 2,
-        "lang": false
-      },
-      {
-        "navn": "Kansas arbejdsjakke",
-        "farve": "blaa",
-        "vandtaet": false,
-        "varme": 3,
-        "lang": false
-      }
+
+    {
+      "navn": "North Face dunjakke",
+      "farve": "sort",
+      "erhvervelse": ["gave","brugt","internettet"],
+      "vandtaet": false,
+      "varme": 10,
+      "lang": false
+    },
+    {
+      "navn": "Henri Lloyd oilskin",
+      "farve": "groen",
+      "erhvervelse": ["koebt","genbrug","brugt"],
+      "vandtaet": false,
+      "varme": 6,
+      "lang": true
+    },
+    {
+      "navn": "Cressida pels",
+      "farve": "moerkebrun",
+      "erhvervelse": ["koebt","brugt","internettet"],
+      "vandtaet": false,
+      "varme": 8,
+      "lang": false
+    },
+    {
+      "navn": "H2O regnjakke",
+      "farve": "sort",
+      "erhvervelse": ["gave","nyt","butik"],
+      "vandtaet": false,
+      "varme": 2,
+      "lang": false
+    },
+    {
+      "navn": "Laederjakke",
+      "farve": "sort",
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "vandtaet": false,
+      "varme": 5,
+      "lang": true
+    },
+    {
+      "navn": "Moebeltransport danmark",
+      "farve": "roed",
+      "erhvervelse": ["faaet","arbejde"],
+      "vandtaet": false,
+      "varme": 5,
+      "lang": false
+    },
+    {
+      "navn": "J guide",
+      "farve": "graa",
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "vandtaet": false,
+      "varme": 2,
+      "lang": false
+    },
+    {
+      "navn": "Kansas arbejdsjakke",
+      "farve": "blaa",
+      "erhvervelse": ["koebt","brugt","genbrug"],
+      "vandtaet": false,
+      "varme": 3,
+      "lang": false
+    }
     
 
       
