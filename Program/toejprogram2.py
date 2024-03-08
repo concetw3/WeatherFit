@@ -54,13 +54,13 @@ def bukser():
 def hovedbeklaedning(): 
      with open('Json\\hovedbeklaedning.json') as f:
         hovedbeklaedning_data = json.load(f)
-        find_varme_keys = list(findkeys(hovedbeklaedning_data, 'varme'))
+        find_varme_keys = list(findkeys(hovedbeklaedning_data['huer'], 'varme'))
         if current_temperature -20 <= current_temperature <= 2:
             min_varme = 6  
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= min_varme]
             tilfaeldige_keys = random.choice(sorter_varme_keys) 
-            jakke_data_varme = hovedbeklaedning_data['huer'][tilfaeldige_keys]
-            return hovedbeklaedning_data
+            hovedbeklaedning_data_varme = hovedbeklaedning_data['huer'][tilfaeldige_keys]
+            return hovedbeklaedning_data_varme
         else:
             hovedbeklaedning_data = random.choice(hovedbeklaedning_data['kasketter'])
             return hovedbeklaedning_data
@@ -159,9 +159,9 @@ def findkeys(node, kv):
 
 def langjakke():
     langjakke_data = jakker()
-    print(langjakke_data)
+    
     soeglangjakke = list(findkeys(langjakke_data, 'blazer'))
-    print(soeglangjakke)
+    
     
 langjakke()
 
