@@ -101,7 +101,7 @@ def troejer():
         if 3 <= current_temperature  <= 15:
             troejer_data_rnd = random.choice(troejer_data['troejer'])
             return troejer_data_rnd
-        elif current_temperature <= 2:    
+        elif -20 <= current_temperature <= 2:    
              troejer_data_sweater = random.choice(troejer_data['sweater'])
              return troejer_data_sweater
         elif current_temperature > 18:
