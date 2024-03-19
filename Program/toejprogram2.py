@@ -135,8 +135,6 @@ def sko():
                 sko_data_varme = sko_data['sko'][tilfaeldige_keys]
                 return sko_data_varme
 
-
-
 def troejer():
      with open('Json\\troejer.json') as f:
         troejer_data = json.load(f)
