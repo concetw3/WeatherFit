@@ -27,6 +27,12 @@ current_temperature = get_current_temperature(timeseries)
 timeseries = get_weather_forecast(latitude, longitude)
 next_hour_precipitation = get_next_hour_precipitation(timeseries)
 
+def baelter():
+   with open('Json\\accessories.json') as f:
+        accessories_data = json.load(f)
+        return random.choice(accessories_data['baelter'])
+    
+        
 
 def accessories():
     with open('Json\\accessories.json') as f:
@@ -42,11 +48,19 @@ def bukser():
         if -10 <= current_temperature -1:
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= 6]
             tilfaeldige_keys = random.choice(sorter_varme_keys) 
-            return bukser_data['bukser'][tilfaeldige_keys]
+            bukser_info = bukser_data['bukser'][tilfaeldige_keys]
+            if bukser_info.get('baelte', False):  # Check if belt is present
+                 return bukser_info, baelter()
+            else:
+                 return bukser_info, None
         elif 0 <= current_temperature <= 10:
              sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 3 <= num <= 6]
-             tilfaeldige_keys = random.choice(sorter_varme_keys) 
-             return bukser_data['bukser'][tilfaeldige_keys]
+             tilfaeldige_keys = random.choice(sorter_varme_keys)
+             bukser_info = bukser_data['bukser'][tilfaeldige_keys]
+             if bukser_info.get('baelte', False):  # Check if belt is present
+                 return bukser_info, baelter()
+             else:
+                 return bukser_info, None
         elif 18 <= current_temperature <= 40:
             return random.choice(bukser_data['shorts'])
 

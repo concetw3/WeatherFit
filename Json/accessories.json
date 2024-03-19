@@ -67,7 +67,23 @@
 			"erhvervelse": ["gave","nyt","butik"],
 			"farve": "sort"
 		}
+	],
+	"baelter": [
+		{
+			"navn": "Huge Boss",
+			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
+			"farve": "sort"
+		},
+		{
+			"navn": "bredt baelte",
+			"erhvervelse": [ "koebt", "internettet", "brugt" ],
+			"farve": "sort"
+		},
+		{
+			"navn": "metal baelte",
+			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
+			"farve": "soelv"
+		}
 	]
-
 
 }

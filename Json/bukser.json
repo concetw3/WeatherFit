@@ -4,6 +4,7 @@
     {
       "navn": "Levis 501",
       "lange_bukser": true,
+      "baelte": true,
       "erhvervelse": [ "koebt", "butik", "nyt" ],
       "farve": "sorte",
       "varme": 6
@@ -11,35 +12,40 @@
     {
       "navn": "Levis 501xx",
       "lange_bukser": true,
-      "erhvervelse": ["faaet", "brugt"],
+      "baelte": true,
+      "erhvervelse": [ "faaet", "brugt" ],
       "farve": "lyseblaa",
       "varme": 6
     },
     {
       "navn": "Laederbukser",
       "lange_bukser": true,
-      "erhvervelse": [ "koebt", "genbrug","brugt"],
+      "baelte": true,
+      "erhvervelse": [ "koebt", "genbrug", "brugt" ],
       "farve": "moerkebrune",
       "varme": 9
     },
     {
       "navn": "Diesel",
       "lange_bukser": true,
-      "erhvervelse": ["koebt","brugt", "internettet"],
+      "baelte": true,
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "beige",
       "varme": 3
     },
     {
       "navn": "Kappa",
       "lange_bukser": true,
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "baelte": false,
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": [ "blaa", "gule" ],
-      "varme": 3
+      "varme": 6
     },
     {
       "navn": "Levis 501 slidte",
       "lange_bukser": true,
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "baelte": true,
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "sort",
       "varme": 6
 
@@ -47,7 +53,8 @@
     {
       "navn": "Kentaur",
       "lange_bukser": true,
-      "erhvervelse": ["fundet","brugt"],
+      "baelte": true,
+      "erhvervelse": [ "fundet", "brugt" ],
       "farve": "moerkeblaa",
       "varme": 4
 
@@ -55,7 +62,8 @@
     {
       "navn": "Dressmann habitbukser",
       "lange_bukser": true,
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "baelte": true,
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "sort",
       "varme": 4
 
@@ -63,7 +71,8 @@
     {
       "navn": "Levis 501 slidte m. huller",
       "lange_bukser": true,
-      "erhvervelse": ["koebt","butik","nyt"],
+      "baelte": true,
+      "erhvervelse": [ "koebt", "butik", "nyt" ],
       "farve": "lyseblaa",
       "varme": 3
 
