@@ -54,6 +54,7 @@
       "navn": "Inspired new york blazer",
       "erhvervelse": ["gave","nyt","butik"],
       "farve": "sort",
+      "varme": 5,
       "stil": "plain",
       "blazer": true
     },
@@ -61,6 +62,7 @@
       "navn": "Device blazer",
       "erhvervelse": ["koebt","brugt","genbrug"],
       "farve": "sort",
+      "varme": 5,
       "stil": "plain",
       "blazer": true
     },
@@ -68,6 +70,7 @@
       "navn": "Bruuns Bazar",
       "erhvervelse": ["koebt","brugt","internettet","auktion"],
       "farve": "sort",
+      "varme": 5,
       "stil": "plain",
       "blazer": true
     },
@@ -75,6 +78,7 @@
       "navn": "JKS arbejdstroeje m. malingpletter",
       "erhvervelse": ["faaet"],
       "farve": "sort",
+      "varme": 5,
       "stil": "print",
       "blazer": false
     }

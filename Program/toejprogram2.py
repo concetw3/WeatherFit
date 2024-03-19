@@ -31,8 +31,7 @@ def baelter():
    with open('Json\\accessories.json') as f:
         accessories_data = json.load(f)
         return random.choice(accessories_data['baelter'])
-    
-        
+          
 
 def accessories():
     with open('Json\\accessories.json') as f:
@@ -49,7 +48,7 @@ def bukser():
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= 6]
             tilfaeldige_keys = random.choice(sorter_varme_keys) 
             bukser_info = bukser_data['bukser'][tilfaeldige_keys]
-            if bukser_info.get('baelte', False):  # Check if belt is present
+            if bukser_info.get('baelte', False):  
                  return bukser_info, baelter()
             else:
                  return bukser_info, None
@@ -57,14 +56,22 @@ def bukser():
              sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 3 <= num <= 6]
              tilfaeldige_keys = random.choice(sorter_varme_keys)
              bukser_info = bukser_data['bukser'][tilfaeldige_keys]
-             if bukser_info.get('baelte', False):  # Check if belt is present
+             if bukser_info.get('baelte', False):  
                  return bukser_info, baelter()
              else:
                  return bukser_info, None
         elif 18 <= current_temperature <= 40:
             return random.choice(bukser_data['shorts'])
 
-    
+def overtraeksbukser():
+    with open('Json\\bukser.json') as f:
+        bukser_data = json.load(f)
+        find_vandtaette_keys = list(findkeys(bukser_data['overtraeksbukser'], 'vandtaette'))
+        if next_hour_precipitation >= 1:                         
+              sorter_vandtaette_keys = [i for i, x in enumerate(find_vandtaette_keys) if x]
+              tilfaeldige_keys = random.choice(sorter_vandtaette_keys)   
+              return bukser_data['overtraeksbukser'][tilfaeldige_keys]
+
 def hovedbeklaedning(): 
      with open('Json\\hovedbeklaedning.json') as f:
         hovedbeklaedning_data = json.load(f)
@@ -125,6 +132,7 @@ def troejer():
 def jakker():
     with open('Json\\jakker.json') as f:
         jakker_data = json.load(f)
+        troejer_data = troejer()
         find_varme_keys = list(findkeys(jakker_data, 'varme'))
         find_lang_jakke = list(findkeys(jakker_data, 'lang'))
         find_vandtaette_keys = list(findkeys(jakker_data, 'vandtaette'))
@@ -190,16 +198,37 @@ def kl12(timeseries):
     data_klokken_12 = Access_timeseries[Klokken18]['data']['instant']['details']['air_temperature']
     return data_klokken_12
 
+def get_random_long_jacket():
+    with open('Json\\jakker.json') as f:
+        jakker_data = json.load(f)
+        find_long_jacket_keys = list(findkeys(jakker_data, 'lang'))
+        long_jackets = [jakker_data['jakker'][i] for i, is_long in enumerate(find_long_jacket_keys) if is_long]
+        return random.choice(long_jackets)
+    
+
 def outfit(timeseries):
     outfit = []   
-    kategorier = [hovedbeklaedning,accessories, tshirt, troejer, jakker, bukser, sko]
-    for i in kategorier:
-        outfit.append(i())
+    kategorier = [hovedbeklaedning,accessories, tshirt, troejer, jakker, bukser,overtraeksbukser, sko,]
+    for category_function in kategorier:
+        outfit.append(category_function())
+
+    for index, item in enumerate(outfit):
+        if item and 'blazer' in item and item['blazer']: 
+            long_jacket = get_random_long_jacket()
+            outfit[4] = long_jacket
+            break  
+
+
     print(json.dumps(outfit, indent=4))
-        
+
+
+
+ 
+
+      
 def main():
     data_klokken_12 = kl12(timeseries)
-    outfit10 = outfit(timeseries)
+    outfit1 = outfit(timeseries)
     symbol_code = get_next_hour_symbol_code(timeseries)
     print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code}")
     
