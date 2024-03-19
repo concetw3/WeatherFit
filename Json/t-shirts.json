@@ -224,12 +224,15 @@
       "farve": [ "lilla", "hvid" ],
       "erhvervelse": ["koebt","brugt","internettet"],
       "stil": "print",
+      "slips": true,
       "langaermet": false
     },
     {
       "navn": "Butter",
       "erhvervelse": ["koebt","brugt","internettet"],
       "farve": "blandede",
+      "stil": "print",
+      "slips": true,
       "langaermet": false
     },
     {
@@ -237,6 +240,7 @@
       "erhvervelse": ["koebt","brugt","marked"],
       "farve": "blandede",
       "stil": "striber",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -244,6 +248,7 @@
       "erhvervelse": ["gave","nyt","butik"],
       "farve": "hvid",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -251,6 +256,7 @@
       "erhvervelse": ["koebt","brugt","internettet"],
       "farve": "graa",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -258,6 +264,7 @@
       "erhvervelse": ["koebt","brugt","genbrug"],
       "farve": "moerkeblaa",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -265,6 +272,7 @@
       "erhvervelse": ["koebt","nyt","skraeddersyet"],
       "farve": "hvid",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -272,6 +280,7 @@
       "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
       "farve": "lyseblaa",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -279,6 +288,7 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "blandede",
       "stil": "print",
+      "slips": true,
       "langaermet": false
     },
     {
@@ -286,6 +296,7 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "graa",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -293,6 +304,7 @@
       "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
       "farve": "moerkeblaa",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -300,6 +312,7 @@
       "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
       "farve": "sort",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -307,6 +320,7 @@
       "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
       "farve": "roed",
       "stil": "plain",
+      "slips": true,
       "langaermet": true
     },
     {
@@ -314,6 +328,7 @@
       "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
       "farve": "hvid",
       "stil": "plain",
+      "slips": false,
       "langaermet": true
     },
     {
@@ -321,6 +336,7 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": [ "hvid", "graa" ],
       "stil": "ternet",
+      "slips": true,
       "langaermet": true
     }
   ]

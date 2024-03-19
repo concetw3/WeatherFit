@@ -31,7 +31,28 @@ def baelter():
    with open('Json\\accessories.json') as f:
         accessories_data = json.load(f)
         return random.choice(accessories_data['baelter'])
-          
+
+
+def handsker():
+   with open('Json\\accessories.json') as f:
+        accessories_data = json.load(f)
+        find_varme_keys = list(findkeys(accessories_data, 'varme'))
+        if -10 <= current_temperature <= 4:
+            sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= 8]
+            tilfaeldige_keys = random.choice(sorter_varme_keys) 
+            return accessories_data['handsker'][tilfaeldige_keys]
+        elif 5 <= current_temperature <= 10:
+            sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 3 <= num <= 6]
+            tilfaeldige_keys = random.choice(sorter_varme_keys)
+            return accessories_data['handsker'][tilfaeldige_keys]
+        else:
+            return None
+
+def slips():
+   with open('Json\\accessories.json') as f:
+        accessories_data = json.load(f)
+        return random.choice(accessories_data['slips'])
+                    
 
 def accessories():
     with open('Json\\accessories.json') as f:
@@ -184,8 +205,6 @@ def langjakke():
     
     soeglangjakke = list(findkeys(langjakke_data, 'blazer'))
     
-    
-langjakke()
 
 def kl12(timeseries):
     iso_date_kl12 = datetime.now().replace(hour=23,minute=0,second=0,microsecond=0,).isoformat()
@@ -204,11 +223,12 @@ def get_random_long_jacket():
         find_long_jacket_keys = list(findkeys(jakker_data, 'lang'))
         long_jackets = [jakker_data['jakker'][i] for i, is_long in enumerate(find_long_jacket_keys) if is_long]
         return random.choice(long_jackets)
+
     
 
 def outfit(timeseries):
     outfit = []   
-    kategorier = [hovedbeklaedning,accessories, tshirt, troejer, jakker, bukser,overtraeksbukser, sko,]
+    kategorier = [hovedbeklaedning,accessories, tshirt, troejer, jakker,handsker, bukser,overtraeksbukser, sko,]
     for category_function in kategorier:
         outfit.append(category_function())
 
@@ -217,8 +237,7 @@ def outfit(timeseries):
             long_jacket = get_random_long_jacket()
             outfit[4] = long_jacket
             break  
-
-
+        
     print(json.dumps(outfit, indent=4))
 
 

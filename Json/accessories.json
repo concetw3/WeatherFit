@@ -26,6 +26,11 @@
 			"navn": "slips lavet til workshop",
 			"erhvervelse": ["selvlavet"],
 			"farve": "blandede"
+		},
+		{
+			"navn": "laederslips",
+			"erhvervelse": ["koebt","genbrug","brugt"],
+			"farve": "brunt"
 		}
 
 	],
