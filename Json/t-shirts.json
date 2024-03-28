@@ -330,14 +330,6 @@
       "stil": "plain",
       "slips": false,
       "langaermet": true
-    },
-    {
-      "navn": "Acne ternet",
-      "erhvervelse": [ "koebt", "brugt", "internettet" ],
-      "farve": [ "hvid", "graa" ],
-      "stil": "ternet",
-      "slips": true,
-      "langaermet": true
     }
   ]
 }

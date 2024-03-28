@@ -18,14 +18,6 @@
       "varme": 6
     },
     {
-      "navn": "Laederbukser",
-      "lange_bukser": true,
-      "baelte": true,
-      "erhvervelse": [ "koebt", "genbrug", "brugt" ],
-      "farve": "moerkebrune",
-      "varme": 9
-    },
-    {
       "navn": "Diesel",
       "lange_bukser": true,
       "baelte": true,
