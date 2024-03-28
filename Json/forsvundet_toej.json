@@ -1,0 +1,27 @@
+{
+  "Huer": [
+    {
+      "navn": "beechfield",
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "farve": "moerkeblaa",
+      "varme": 6,
+      "aarsag": ["fuldskab", "byen"]
+    }
+  ],
+  "t-shirts": [
+    {
+      "navn": "Smokers Choice",
+      "farve": "hvid",
+      "aarsag": [ "forsvundet", "vides ikke" ]
+    }
+  ],
+  "smykker": [
+    {
+      "navn": "guldkaede",
+      "farve": "guld",
+      "aarsag": ["forsvundet", "vides ikke"]
+    }
+  ]
+
+
+}
