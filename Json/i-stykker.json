@@ -1,0 +1,26 @@
+{
+  "Skjorter": [
+    {
+      "navn": "Acne ternet",
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": [ "hvid", "graa" ],
+      "stil": "ternet",
+      "slips": true,
+      "langaermet": true,
+      "fejl": "aerme oedelagt",
+      "kan_repareres": true
+    }
+  ],
+  "Bukser": [
+    {
+      "navn": "Laederbukser",
+      "lange_bukser": true,
+      "baelte": true,
+      "erhvervelse": [ "koebt", "genbrug", "brugt" ],
+      "farve": "moerkebrune",
+      "varme": 9,
+      "fejl": "revnet",
+      "kan_repareres": true
+    }
+  ]
+}

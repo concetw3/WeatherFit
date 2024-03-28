@@ -3,15 +3,28 @@
     {
       "navn": "Mascot",
       "farve": "moerkeblaa",
-      "laaner": "Asta P."
+      "laaner": "Asta P.",
+      "dato":  "Midt sommer 2023"
     }
   ],
   "baelter": [
     {
       "navn": "Golddigger",
       "farve": "Guld",
-      "laaner": "Simon R."
+      "laaner": "Simon R.",
+      "dato":  "02/04/2023"
     }
-  ] 
+  ]
+  "kasketter": [
+    {
+      "navn": "Bier macht schon kasket",
+      "erhvervelse": [ "faaet", "brugt" ],
+      "farve": "sort",
+      "varme": 0,
+      "laaner": "Asger G.",
+      "dato":  "16/03/2024"
+
+    }
+  ]
 
 }

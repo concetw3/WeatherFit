@@ -1,12 +1,6 @@
 {
   "kasketter": [
     {
-      "navn": "Bier macht schon kasket",
-      "erhvervelse": ["faaet","brugt"],
-      "farve": "sort",
-      "varme": 0
-    },
-    {
       "navn": "Uponor kasket",
       "erhvervelse": ["koebt","brugt","butik"],
       "farve": "moerkeblaa",

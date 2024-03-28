@@ -87,7 +87,10 @@
 		{
 			"navn": "metal baelte",
 			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
-			"farve": "soelv"
+			"farve": "soelv",
+			"dato": "12/03/2024",
+			"pris": "130DKK"
+				
 		}
 	]
 
