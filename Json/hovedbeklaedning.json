@@ -22,12 +22,6 @@
   ],
   "huer": [
     {
-      "navn": "beechfield",
-      "erhvervelse": ["koebt","brugt","genbrug"],
-      "farve": "moerkeblaa",
-      "varme": 6
-    },
-    {
       "navn": "san fransisco",
       "erhvervelse": ["faaet","brugt"],
       "farve": [ "moerkeblaa", "orange" ],

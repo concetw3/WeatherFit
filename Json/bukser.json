@@ -68,6 +68,15 @@
       "farve": "lyseblaa",
       "varme": 3
 
+    },
+    {
+      "navn": "our legacy",
+      "lange_bukser": true,
+      "baelte": true,
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": "lyseblaa",
+      "varme": 6
+
     }
 
 
