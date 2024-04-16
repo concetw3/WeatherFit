@@ -2,6 +2,7 @@ import requests
 import json
 import random
 from datetime import datetime
+import os
   
 def get_weather_forecast(latitude, longitude):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'}
@@ -41,7 +42,7 @@ def handsker():
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= 8]
             tilfaeldige_keys = random.choice(sorter_varme_keys) 
             return accessories_data['handsker'][tilfaeldige_keys]
-        elif 5 <= current_temperature <= 10:
+        elif 5 <= current_temperature <= 7:
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 3 <= num <= 6]
             tilfaeldige_keys = random.choice(sorter_varme_keys)
             return accessories_data['handsker'][tilfaeldige_keys]
@@ -206,19 +207,42 @@ def get_random_lang_jakke():
 
     
 def outfit(timeseries):
-    outfit = []   
-    kategorier = [hovedbeklaedning,accessories, tshirt, troejer, jakker,handsker, bukser,overtraeksbukser, sko,]
+    outfit = []
+    kategorier = [hovedbeklaedning, accessories, tshirt, troejer, jakker, handsker, bukser, overtraeksbukser, sko]
     for category_function in kategorier:
-        outfit.append(category_function())
+        result = category_function()
+        if result is None:
+            continue  
+        if isinstance(result, tuple):
+            for item in result:
+                if item and 'navn' in item:
+                    outfit.append(item['navn'])
+        elif 'navn' in result:
+            outfit.append(result['navn'])
 
     for index, item in enumerate(outfit):
-        if item and 'blazer' in item and item['blazer']: 
+        if 'blazer' in item: 
             long_jacket = get_random_lang_jakke()
-            outfit[4] = long_jacket
-            break  
-        
-    print(json.dumps(outfit, indent=4))
-      
+            if long_jacket and 'navn' in long_jacket:
+                outfit[4] = long_jacket['navn']
+            break
+
+   
+    FORMAT = '%Y%m%d%H%M%S'
+    directory = "./Logs"
+    filename = "vejr.txt"
+    new_filename = '%s_%s' % (datetime.now().strftime(FORMAT), filename)
+    new_path = os.path.join(directory, new_filename) 
+
+    if not os.path.exists(directory):
+        make.dirs(directory)
+    
+    with open(new_path, "w") as f:
+        json.dump(outfit, f, indent=4)
+
+    print(json.dumps(outfit, indent=4)) 
+
+  
 def main():
     outfit1 = outfit(timeseries)
     symbol_code = get_next_hour_symbol_code(timeseries)
