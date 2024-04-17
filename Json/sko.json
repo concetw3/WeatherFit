@@ -3,7 +3,7 @@
     {
       "navn": "Elten arbejdssko",
       "farve": "sort",
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": false,
       "erhvervelse": ["koebt","brugt","internettet"],
       "varme" : 5
@@ -12,7 +12,7 @@
       "navn": "Colombia Sandaler",
       "farve": "sort",
       "erhvervelse": ["koebt","tilbud","butik"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": true,
       "varme": 0
     },
@@ -20,7 +20,7 @@
       "navn": "Red Wing",
       "farve": "moerkebrun",
       "erhvervelse": ["koebt","butik"],
-      "vandtaette": true,
+      "vandtaet": true,
       "sandaler": false,
       "varme": 8
     },
@@ -28,7 +28,7 @@
       "navn": "Lloyd",
       "farve": "sort",
       "erhvervelse": ["faaet"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": false,
       "varme": 4
     },
@@ -36,7 +36,7 @@
       "navn": "Asics",
       "farve": "sort",
       "erhvervelse": ["koebt","tilbud","butik"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": false,
       "varme": 4
     },
@@ -44,7 +44,7 @@
       "navn": "Derossi",
       "farve": "sort",
       "erhvervelse": ["faaet"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": false,
       "varme": 4
     },
@@ -52,7 +52,7 @@
       "navn": "Playboy uden snoerrebaand",
       "farve": "sort",
       "erhvervelse": ["koebt","brugt","internettet"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": false,
       "varme": 4
     },
@@ -60,7 +60,7 @@
       "navn": "Sendra stoevler",
       "farve": "sort",
       "erhvervelse": ["koebt","butik"],
-      "vandtaette": true,
+      "vandtaet": true,
       "sandaler": false,
       "varme": 8
     },
@@ -68,7 +68,7 @@
       "navn": "Nike air max 95",
       "farve": "sort",
       "erhvervelse": ["bytte","nyt"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": false,
       "varme": 5
     },
@@ -76,7 +76,7 @@
       "navn": "Camper stoevler",
       "farve": "sort",
       "erhvervelse": ["koebt","brugt","internettet"],
-      "vandtaette": true,
+      "vandtaet": true,
       "sandaler": false,
       "varme": 8
     },
@@ -84,7 +84,7 @@
       "navn": "Kappa badesandaler",
       "farve": [ "sort", "hvid" ],
       "erhvervelse": ["koebt","butik"],
-      "vandtaette": false,
+      "vandtaet": false,
       "sandaler": true,
       "varme": 0
     }

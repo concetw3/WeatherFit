@@ -11,12 +11,6 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": [ "roed", "moerkeblaa", "hvid" ],
       "varme": 0
-    },
-    {
-      "navn": "Ingen kasket",
-      "erhvervelse": [],
-      "farve": [],
-      "varme": 0
     }
 
   ],

@@ -14,7 +14,7 @@
       "farve": "groen",
       "erhvervelse": ["koebt","genbrug","brugt"],
       "vandtaet": false,
-      "varme": 6,
+      "varme": 5,
       "lang": true
     },
     {
@@ -29,7 +29,15 @@
       "navn": "H2O regnjakke",
       "farve": "sort",
       "erhvervelse": ["gave","nyt","butik"],
-      "vandtaet": false,
+      "vandtaet": true,
+      "varme": 2,
+      "lang": false
+    },
+      {
+      "navn": "Helly Hansen regnjakke",
+      "farve": "sort",
+      "erhvervelse": ["gave","nyt","butik"],
+      "vandtaet": true,
       "varme": 2,
       "lang": false
     },
@@ -46,7 +54,7 @@
       "farve": "roed",
       "erhvervelse": ["faaet","arbejde"],
       "vandtaet": false,
-      "varme": 5,
+      "varme": 6,
       "lang": false
     },
     {

@@ -1,6 +1,15 @@
 {
   "bukser": [
-
+    {
+      "navn": "Laederbukser",
+      "lange_bukser": true,
+      "baelte": true,
+      "erhvervelse": [ "koebt", "genbrug", "brugt" ],
+      "farve": "moerkebrune",
+      "varme": 7,
+      "fejl": "revnet",
+      "kan_repareres": true
+    },
     {
       "navn": "Levis 501",
       "lange_bukser": true,
@@ -84,17 +93,17 @@
   "overtraeksbukser": [
 
     {
-      "navn": "H2O",
+      "navn": "H2O regnbukser",
       "erhvervelse": [ "gave", "nyt" ],
       "farve": "sort",
-      "vandtaette": true,
+      "vandtaet": true,
       "vindtaette": true
     },
     {
-      "navn": "Helly hansen",
+      "navn": "Helly hansen regnbukser",
       "erhvervelse": [ "arvet" ],
       "farve": "sorte",
-      "vandtaette": true,
+      "vandtaet": true,
       "vindtaette": true
     }
 
