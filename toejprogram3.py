@@ -3,7 +3,6 @@ import json
 import random
 from datetime import datetime
 import os
-import smtplib
   
 def get_weather_forecast(latitude, longitude):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'}
@@ -259,8 +258,7 @@ def outfit(timeseries):
                     outfit[4] = long_jacket['navn']
                     print(outfit[4])
                 break  
-
-    '''
+    
     FORMAT = '%Y%m%d%H%M%S'
     directory = "./Logs"
     filename = "vejr.txt"
@@ -272,7 +270,8 @@ def outfit(timeseries):
     
     with open(new_path, "w") as f:
         json.dump(outfit, f, indent=4)
-    '''
+    
+    
     print(json.dumps(outfit, indent=4))
    
 
