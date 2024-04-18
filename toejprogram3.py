@@ -266,7 +266,7 @@ def outfit(timeseries):
     new_path = os.path.join(directory, new_filename) 
 
     if not os.path.exists(directory):
-        make.dirs(directory)
+        os.mkdir(directory)
     
     with open(new_path, "w") as f:
         json.dump(outfit, f, indent=4)
