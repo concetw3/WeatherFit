@@ -2,48 +2,55 @@
   "kasketter": [
     {
       "navn": "Uponor kasket",
-      "erhvervelse": ["koebt","brugt","butik"],
+      "erhvervelse": [ "koebt", "brugt", "butik" ],
       "farve": "moerkeblaa",
-      "varme": 0
+      "varme": 0,
+      "billede": "./test_billeder/hat.jpg"
     },
     {
       "navn": "Rockstars and angels",
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": [ "roed", "moerkeblaa", "hvid" ],
-      "varme": 0
+      "varme": 0,
+      "billede": "./test_billeder/hat.jpg"
     }
 
   ],
   "huer": [
     {
       "navn": "san fransisco",
-      "erhvervelse": ["faaet","brugt"],
+      "erhvervelse": [ "faaet", "brugt" ],
       "farve": [ "moerkeblaa", "orange" ],
-      "varme": 5
+      "varme": 5,
+      "billede": "./test_billeder/hat.jpg"
     },
     {
       "navn": "Mil-tec",
-      "erhvervelse": ["brugt","koebt","genbrug"],
+      "erhvervelse": [ "brugt", "koebt", "genbrug" ],
       "farve": "sort",
-      "varme": 6
+      "varme": 6,
+      "billede": "./test_billeder/hat.jpg"
     },
     {
       "navn": "Sport fashion",
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "sort",
-      "varme": 5
+      "varme": 5,
+      "billede": "./test_billeder/hat.jpg"
     },
     {
       "navn": "hjemmestrikket",
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "hvid",
-      "varme": 4
+      "varme": 4,
+      "billede": "./test_billeder/hat.jpg"
     },
     {
       "navn": "Asta hjemmestrikket hue",
-      "erhvervelse": ["gave","hjemmelavet"],
+      "erhvervelse": [ "gave", "hjemmelavet" ],
       "farve": [ "groen", "guld" ],
-      "varme": 6
+      "varme": 6,
+      "billede": "./test_billeder/hat.jpg"
     }
 
 

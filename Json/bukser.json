@@ -8,7 +8,8 @@
       "farve": "moerkebrune",
       "varme": 7,
       "fejl": "revnet",
-      "kan_repareres": true
+      "kan_repareres": true,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Levis 501",
@@ -16,7 +17,8 @@
       "baelte": true,
       "erhvervelse": [ "koebt", "butik", "nyt" ],
       "farve": "sorte",
-      "varme": 6
+      "varme": 6,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Levis 501xx",
@@ -24,7 +26,8 @@
       "baelte": true,
       "erhvervelse": [ "faaet", "brugt" ],
       "farve": "lyseblaa",
-      "varme": 6
+      "varme": 6,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Diesel",
@@ -32,7 +35,8 @@
       "baelte": true,
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "beige",
-      "varme": 3
+      "varme": 3,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Kappa",
@@ -40,7 +44,8 @@
       "baelte": false,
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": [ "blaa", "gule" ],
-      "varme": 6
+      "varme": 6,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Levis 501 slidte",
@@ -48,8 +53,8 @@
       "baelte": true,
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "sort",
-      "varme": 6
-
+      "varme": 6,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Kentaur",
@@ -57,8 +62,8 @@
       "baelte": true,
       "erhvervelse": [ "fundet", "brugt" ],
       "farve": "moerkeblaa",
-      "varme": 4
-
+      "varme": 4,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Dressmann habitbukser",
@@ -66,8 +71,8 @@
       "baelte": true,
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "sort",
-      "varme": 4
-
+      "varme": 4,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "Levis 501 slidte m. huller",
@@ -75,8 +80,8 @@
       "baelte": true,
       "erhvervelse": [ "koebt", "butik", "nyt" ],
       "farve": "lyseblaa",
-      "varme": 3
-
+      "varme": 3,
+      "billede": "./test_billeder/laederbukser.jpg"
     },
     {
       "navn": "our legacy",
@@ -84,8 +89,8 @@
       "baelte": true,
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "lyseblaa",
-      "varme": 6
-
+      "varme": 6,
+      "billede": "./test_billeder/laederbukser.jpg"
     }
 
 
@@ -97,52 +102,62 @@
       "erhvervelse": [ "gave", "nyt" ],
       "farve": "sort",
       "vandtaet": true,
-      "vindtaette": true
+      "vindtaette": true,
+      "billede": "./test_billeder/regnbukser.jpg"
+
     },
     {
       "navn": "Helly hansen regnbukser",
       "erhvervelse": [ "arvet" ],
       "farve": "sorte",
       "vandtaet": true,
-      "vindtaette": true
+      "vindtaette": true,
+      "billede": "./test_billeder/regnbukser.jpg"
     }
 
   ],
   "shorts": [
     {
       "navn": "Kappa",
-      "erhvervelse": ["koebt","brugt","marked"],
-      "farve": [ "lyseroed", "sort" ]
+      "erhvervelse": [ "koebt", "brugt", "marked" ],
+      "farve": [ "lyseroed", "sort" ],
+      "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "Bjorn borg",
-      "erhvervelse": ["koebt","brugt","internettet"],
-      "farve": "lyseblaa"
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": "lyseblaa",
+      "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "New Zealand - all blacks",
-      "erhvervelse": ["stjaalet","laant"],
-      "farve": "sort"
+      "erhvervelse": [ "stjaalet", "laant" ],
+      "farve": "sort",
+      "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "unbranded",
-      "erhvervelse": ["koebt","brugt","genbrug"],
-      "farve": [ "lyseroed", "sort" ]
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "farve": [ "lyseroed", "sort" ],
+      "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "Nike dri-fit",
-      "erhvervelse": ["koebt","brugt","genbrug"],
-      "farve": "lyseblaa"
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "farve": "lyseblaa",
+      "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "All sports",
-      "erhvervelse": ["koebt","brugt","genbrug"],
-      "farve": [ "hvid", "blaa" ]
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "farve": [ "hvid", "blaa" ],
+      "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "klippet JKS arbejdsbukser",
-      "erhvervelse": ["faaet"],
-      "farve": "sort"
+      "erhvervelse": [ "faaet" ],
+      "farve": "sort",
+      "billede": "./test_billeder/shorts.jpg"
     }
 
   ]

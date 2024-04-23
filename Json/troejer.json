@@ -4,83 +4,92 @@
     {
       "navn": "Hardstylers.dk",
       "farve": [ "sort", "hvid" ],
-      "erhvervelse": ["fundet"],
+      "erhvervelse": [ "fundet" ],
       "varme": 5,
       "stil": "print",
-      "blazer": false
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Kappa tracktop",
       "farve": [ "lyseblaa", "gul" ],
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "varme": 3,
       "stil": "plain",
-      "blazer": false
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Mascot haettetroeje",
       "farve": "groen",
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "varme": 5,
       "stil": "plain",
-      "blazer": false
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Superdry",
       "farve": "gul",
-      "erhvervelse": ["fundet"],
+      "erhvervelse": [ "fundet" ],
       "varme": 5,
       "stil": "plain",
-      "blazer": false
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "H2O",
       "farve": "creme",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "varme": 6,
       "stil": "plain",
-      "blazer": false
-
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Metallifuckinga haettetroeje",
       "farve": "sort",
-      "erhvervelse": ["koebt","nyt","internettet"],
+      "erhvervelse": [ "koebt", "nyt", "internettet" ],
       "varme": 5,
       "stil": "print",
-      "blazer": false
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Inspired new york blazer",
-      "erhvervelse": ["gave","nyt","butik"],
+      "erhvervelse": [ "gave", "nyt", "butik" ],
       "farve": "sort",
       "varme": 5,
       "stil": "plain",
-      "blazer": true
+      "blazer": true,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Device blazer",
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "sort",
       "varme": 5,
       "stil": "plain",
-      "blazer": true
+      "blazer": true,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "Bruuns Bazar blazer",
-      "erhvervelse": ["koebt","brugt","internettet","auktion"],
+      "erhvervelse": [ "koebt", "brugt", "internettet", "auktion" ],
       "farve": "sort",
       "varme": 5,
       "stil": "plain",
-      "blazer": true
+      "blazer": true,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     },
     {
       "navn": "JKS arbejdstroeje m. malingpletter",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "farve": "sort",
       "varme": 5,
       "stil": "print",
-      "blazer": false
+      "blazer": false,
+      "billede": "./test_billeder/hussein_chalayan.jpg"
     }
 
 
@@ -90,52 +99,59 @@
   "sweater": [
     {
       "navn": "SNS",
-      "erhvervelse": ["faaet","nyt","gave"],
+      "erhvervelse": [ "faaet", "nyt", "gave" ],
       "farve": "petroleum",
       "stil": "plain",
-      "varme": 8
+      "varme": 8,
+      "billede": "./test_billeder/elder_statesman.jpg"
     },
     {
       "navn": "Andersen & Andersen",
-      "erhvervelse": ["koebt","tilbud","butik"],
+      "erhvervelse": [ "koebt", "tilbud", "butik" ],
       "farve": "brun",
       "stil": "plain",
-      "varme": 9
+      "varme": 9,
+      "billede": "./test_billeder/elder_statesman.jpg"
     },
     {
       "navn": "SNS",
-      "erhvervelse": ["faaet","nyt","gave"],
+      "erhvervelse": [ "faaet", "nyt", "gave" ],
       "farve": "moerkeblaa",
       "stil": "plain",
-      "varme": 7
+      "varme": 7,
+      "billede": "./test_billeder/elder_statesman.jpg"
     },
     {
       "navn": "Norse projects",
-      "erhvervelse": ["faaet","nyt","gave"],
+      "erhvervelse": [ "faaet", "nyt", "gave" ],
       "farve": "graa",
       "stil": "plain",
-      "varme": 7
+      "varme": 7,
+      "billede": "./test_billeder/elder_statesman.jpg"
     },
     {
       "navn": "Dale of norway",
-      "erhvervelse": ["arvet"],
+      "erhvervelse": [ "arvet" ],
       "farve": [ "groen", "roed", "hvid" ],
       "stil": "moenster",
-      "varme": 9
+      "varme": 9,
+      "billede": "./test_billeder/elder_statesman.jpg"
     },
     {
       "navn": "Hjemmestrik",
-      "erhvervelse": ["faaet","brugt"],
+      "erhvervelse": [ "faaet", "brugt" ],
       "farve": "sort",
       "stil": "plain",
-      "varme": 6
+      "varme": 6,
+      "billede": "./test_billeder/elder_statesman.jpg"
     },
     {
       "navn": "North by 66",
-      "erhvervelse": ["faaet","butik","nyt"],
+      "erhvervelse": [ "faaet", "butik", "nyt" ],
       "farve": "sort",
       "stil": "plain",
-      "varme": 7
+      "varme": 7,
+      "billede": "./test_billeder/elder_statesman.jpg"
     }
 
   ]

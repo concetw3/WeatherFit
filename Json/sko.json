@@ -5,88 +5,99 @@
       "farve": "sort",
       "vandtaet": false,
       "sandaler": false,
-      "erhvervelse": ["koebt","brugt","internettet"],
-      "varme" : 5
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "varme": 5,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Colombia Sandaler",
       "farve": "sort",
-      "erhvervelse": ["koebt","tilbud","butik"],
+      "erhvervelse": [ "koebt", "tilbud", "butik" ],
       "vandtaet": false,
       "sandaler": true,
-      "varme": 0
+      "varme": 0,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Red Wing",
       "farve": "moerkebrun",
-      "erhvervelse": ["koebt","butik"],
+      "erhvervelse": [ "koebt", "butik" ],
       "vandtaet": true,
       "sandaler": false,
-      "varme": 8
+      "varme": 8,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Lloyd",
       "farve": "sort",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "vandtaet": false,
       "sandaler": false,
-      "varme": 4
+      "varme": 4,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Asics",
       "farve": "sort",
-      "erhvervelse": ["koebt","tilbud","butik"],
+      "erhvervelse": [ "koebt", "tilbud", "butik" ],
       "vandtaet": false,
       "sandaler": false,
-      "varme": 4
+      "varme": 4,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Derossi",
       "farve": "sort",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "vandtaet": false,
       "sandaler": false,
-      "varme": 4
+      "varme": 4,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Playboy uden snoerrebaand",
       "farve": "sort",
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "vandtaet": false,
       "sandaler": false,
-      "varme": 4
+      "varme": 4,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Sendra stoevler",
       "farve": "sort",
-      "erhvervelse": ["koebt","butik"],
+      "erhvervelse": [ "koebt", "butik" ],
       "vandtaet": true,
       "sandaler": false,
-      "varme": 8
+      "varme": 8,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Nike air max 95",
       "farve": "sort",
-      "erhvervelse": ["bytte","nyt"],
+      "erhvervelse": [ "bytte", "nyt" ],
       "vandtaet": false,
       "sandaler": false,
-      "varme": 5
+      "varme": 5,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Camper stoevler",
       "farve": "sort",
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "vandtaet": true,
       "sandaler": false,
-      "varme": 8
+      "varme": 8,
+      "billede": "./test_billeder/aquaman.jpg"
     },
     {
       "navn": "Kappa badesandaler",
       "farve": [ "sort", "hvid" ],
-      "erhvervelse": ["koebt","butik"],
+      "erhvervelse": [ "koebt", "butik" ],
       "vandtaet": false,
       "sandaler": true,
-      "varme": 0
+      "varme": 0,
+      "billede": "./test_billeder/aquaman.jpg"
     }
 
 

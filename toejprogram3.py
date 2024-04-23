@@ -3,6 +3,7 @@ import json
 import random
 from datetime import datetime
 import os
+import http.client, urllib
   
 def get_weather_forecast(latitude, longitude):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'}
@@ -17,11 +18,23 @@ def get_current_temperature(timeseries):
     return timeseries[0]['data']['instant']['details']['air_temperature']
     
    
-
+  
 def get_next_hour_symbol_code(timeseries):
     next_hour_data = timeseries[0]['data']['next_1_hours']
     return next_hour_data['summary']['symbol_code']
-    
+   
+def findkeys(node, kv):
+    if isinstance(node, list):
+        for i in node:
+            for x in findkeys(i, kv):
+               yield x
+    elif isinstance(node, dict):
+        if kv in node:
+            yield node[kv]
+        for j in node.values():
+            for x in findkeys(j, kv):
+                yield x
+
 
 latitude = 55.67
 longitude = 12.56
@@ -40,11 +53,11 @@ def handsker():
    with open('./Json/accessories.json') as f:
         accessories_data = json.load(f)
         find_varme_keys = list(findkeys(accessories_data, 'varme'))
-        if -20 <= current_temperature <= 4:
+        if -20 <= current_temperature <= 3:
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= 8]
             tilfaeldige_keys = random.choice(sorter_varme_keys) 
             return accessories_data['handsker'][tilfaeldige_keys]
-        elif 5 <= current_temperature <= 7:
+        elif 3 <= current_temperature <= 5:
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 3 <= num <= 6]
             tilfaeldige_keys = random.choice(sorter_varme_keys)
             return accessories_data['handsker'][tilfaeldige_keys]
@@ -141,10 +154,10 @@ def sko():
 def troejer():
      with open('./Json/troejer.json') as f:
         troejer_data = json.load(f)
-        if 5 <= current_temperature  <= 14:
+        if 3 <= current_temperature  <= 14:
             troejer_data_rnd = random.choice(troejer_data['troejer'])
             return troejer_data_rnd
-        elif -20 <= current_temperature <= 4:    
+        elif -20 <= current_temperature <= 3:    
              troejer_data_sweater = random.choice(troejer_data['sweater'])
              return troejer_data_sweater
         elif current_temperature > 13:
@@ -160,32 +173,35 @@ def jakker():
         find_vandtaette_keys = list(findkeys(jakker_data, 'vandtaet'))
     if next_hour_precipitation >= 1:                   
         sorter_vandtaette_keys = [i for i, x in enumerate(find_vandtaette_keys) if x]
-        tilfaeldige_keys = random.choice(sorter_vandtaette_keys)   
+        tilfaeldige_keys = random.choice(sorter_vandtaette_keys) 
         return jakker_data['jakker'][tilfaeldige_keys]
-    elif current_temperature <= 4:
+    elif current_temperature < 3:
         sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if num >= 8]
-        tilfaeldige_keys = random.choice(sorter_varme_keys) 
+        tilfaeldige_keys = random.choice(sorter_varme_keys)
         return jakker_data['jakker'][tilfaeldige_keys]
-    elif 5 <= current_temperature <= 6:
+        
+    elif 3 <= current_temperature <= 6:
         sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 6 <= num <= 7]
         tilfaeldige_keys = random.choice(sorter_varme_keys) 
         return jakker_data['jakker'][tilfaeldige_keys]
+        
     elif 7 <= current_temperature <= 12:
         sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 4 <= num <= 5]
         tilfaeldige_keys = random.choice(sorter_varme_keys) 
         return jakker_data['jakker'][tilfaeldige_keys]
+       
     elif 12 <= current_temperature <= 17:
         sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if  0 <= num <= 3]
         tilfaeldige_keys = random.choice(sorter_varme_keys) 
         return jakker_data['jakker'][tilfaeldige_keys]
+        
     elif current_temperature > 18:
-            return None
-
+            return None 
 
 def tshirt():
     with open('./Json/t-shirts.json') as f:
         t_shirt_og_skjorte_data = json.load(f)
-        if current_temperature > 18:
+        if current_temperature > 17:
             t_shirt_data = random.choice(t_shirt_og_skjorte_data['t-shirts'])
             return t_shirt_data
         else:
@@ -194,30 +210,15 @@ def tshirt():
             return t_shirt_data, skjorte_data
 
 
-def findkeys(node, kv):
-    if isinstance(node, list):
-        for i in node:
-            for x in findkeys(i, kv):
-               yield x
-    elif isinstance(node, dict):
-        if kv in node:
-            yield node[kv]
-        for j in node.values():
-            for x in findkeys(j, kv):
-                yield x
-
 
 def get_random_lang_jakke():
     with open('./Json/jakker.json') as f:
         jakker_data = json.load(f)
         find_lang_jakke_keys = list(findkeys(jakker_data, 'lang'))
-        lange_jakke = [jakker_data['jakker'][i] for i, is_long in enumerate(find_lang_jakke_keys) if is_long]
-        return random.choice(lange_jakke)
+        lange_jakke = [jacket for jacket, is_long in zip(jakker_data['jakker'], find_lang_jakke_keys) if is_long]
+        if lange_jakke:
+            return random.choice(lange_jakke)
 
-def get_random_sweater():
-    with open('./Json/troejer.json') as f:
-        sweater_data = json.load(f)
-        return random.choice(sweater_data['sweater'])
 
 def get_random_troeje():
     with open('./Json/troejer.json') as f:
@@ -240,25 +241,45 @@ def outfit(timeseries):
                     outfit.append(item['navn'])
         elif 'navn' in result:
             outfit.append(result['navn'])
-
-    if next_hour_precipitation >= 1:
-        if 5 <= current_temperature <= 14:
-            for index, item in enumerate(outfit):
-                if 'blazer' in item:
-                    alm_troeje = get_random_troeje()
-                    if alm_troeje and 'navn' in alm_troeje:
-                        outfit[3] = alm_troeje['navn']
-                        print(outfit[3])
-                    break  
-    else:
+            
+   
+    if next_hour_precipitation >= 1 and 5 <= current_temperature <= 14:
         for index, item in enumerate(outfit):
             if 'blazer' in item:
-                long_jacket = get_random_lang_jakke()
-                if long_jacket and 'navn' in long_jacket:
-                    outfit[4] = long_jacket['navn']
-                    print(outfit[4])
-                break  
+                alm_troeje = get_random_troeje()
+                if alm_troeje and 'navn' in alm_troeje:
+                    outfit[index] = alm_troeje['navn']  
+                    print(outfit[index])
+                break
+
+
+    blazer_found = False  
+
     
+    with open('./Json/jakker.json') as f:
+        jakker_data = json.load(f)['jakker']
+
+   
+    for index, item in enumerate(outfit):
+        if 'blazer' in item.lower():
+            blazer_found = True
+            break  
+
+    
+    if blazer_found:
+        for index, item in enumerate(outfit):
+            
+            jacket_details = next((jacket for jacket in jakker_data if jacket['navn'] == item), None)
+            if jacket_details and not jacket_details['lang']: 
+                new_jacket = get_random_lang_jakke()
+                if new_jacket:
+                    outfit[index] = new_jacket['navn']
+                    print(f"Replaced {item} with {new_jacket['navn']}")
+                    break 
+    else:
+        print("No blazer found; no jackets were replaced.")
+   
+                
     FORMAT = '%Y%m%d%H%M%S'
     directory = "./Logs"
     filename = "vejr.txt"
@@ -270,16 +291,27 @@ def outfit(timeseries):
     
     with open(new_path, "w") as f:
         json.dump(outfit, f, indent=4)
-    
-    
+    '''
+    conn = http.client.HTTPSConnection("api.pushover.net:443")
+    conn.request("POST", "/1/messages.json",
+      urllib.parse.urlencode({
+        "token": "agv6vuha11wiv4a7gw55qwjmpp97az",
+        "user": "uz7q8o8jtapyur766atyoyuwjxmp4h",
+        "message": json.dumps(outfit, indent=4),
+      }), { "Content-type": "application/x-www-form-urlencoded" })
+    conn.getresponse()
+    '''
+
     print(json.dumps(outfit, indent=4))
-   
+
+
+
 
   
 def main():
     outfit1 = outfit(timeseries)
     symbol_code = get_next_hour_symbol_code(timeseries)
-    print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code}")
+    print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code} sandsynligheden for at det kommer til at regne er {next_hour_precipitation}")
  
 if __name__ == "__main__":
     main()

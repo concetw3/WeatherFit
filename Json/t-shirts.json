@@ -3,245 +3,279 @@
     {
       "navn": "modificeret commes ces garcons - embrace nothing - nothing is nothing",
       "farve": [ "hvid", "sort" ],
-      "erhvervelse": ["fundet","hjemmelavet"],
+      "erhvervelse": [ "fundet", "hjemmelavet" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Kappa",
       "farve": [ "sort", "lilla" ],
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "stil": "striber",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Made in Heaven",
       "farve": [ "lyseroed", "hvid" ],
-      "erhvervelse": ["koebt","brugt", "genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "stil": "striber",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Dolce & Gabbana",
       "farve": [ "moerkeblaa", "lyseblaa" ],
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "stil": "stiber",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "DR3 CS",
-      "erhvervelse": ["vundet"],
+      "erhvervelse": [ "vundet" ],
       "farve": "hvid",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Boundaries band t-shirt",
-      "erhvervelse": ["koebt","nyt"],
+      "erhvervelse": [ "koebt", "nyt" ],
       "farve": [ "hvid", "sort" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Loesriv Lolland",
-      "erhvervelse": ["hjemmelavet"],
+      "erhvervelse": [ "hjemmelavet" ],
       "farve": "sort",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Lever det her liv sindssyge liv som flok tror jeg tager serioest",
-      "erhvervelse": ["koebt","brugt","genbrug","hjemmelavet"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug", "hjemmelavet" ],
       "farve": "blandede",
       "stil": [ "moenster", "print" ],
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Eriksminde efterskole 11/12",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "farve": [ "sort", "hvid" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "L.L.L.L",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "farve": "blandede",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Anholt kro - t-shirt",
-      "erhvervelse": ["stjaalet","arbejde"],
+      "erhvervelse": [ "stjaalet", "arbejde" ],
       "farve": [ "orange", "sort" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Anholt Kro - polo",
-      "erhvervelse": ["stjaalet","arbejde"],
+      "erhvervelse": [ "stjaalet", "arbejde" ],
       "farve": [ "orange", "sort" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "G-star raw",
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "graa",
       "stil": "print",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Broder",
-      "erhvervelse": ["koebt","nyt"],
+      "erhvervelse": [ "koebt", "nyt" ],
       "farve": [ "sort", "hvid" ],
       "stil": "stil",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Janushoved",
-      "erhvervelse": ["koebt","nyt"],
+      "erhvervelse": [ "koebt", "nyt" ],
       "farve": [ "hvid", "sort" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Stockholm surfboard club",
-      "erhvervelse": ["koebt","nyt","tilbud","internettet"],
+      "erhvervelse": [ "koebt", "nyt", "tilbud", "internettet" ],
       "farve": [ "gul", "blandede" ],
       "stil": "print",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Bad Axe throwing",
-      "erhvervelse": ["faaet"],
+      "erhvervelse": [ "faaet" ],
       "farve": [ "sort", "roed" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Divided tank top",
-      "erhvervelse": ["fundet"],
+      "erhvervelse": [ "fundet" ],
       "farve": "sort",
       "stil": "plain",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Pafund til rigets ende",
-      "erhvervelse": ["koebt","nyt","internettet"],
+      "erhvervelse": [ "koebt", "nyt", "internettet" ],
       "farve": [ "hvid", "sort" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Vi har travlt simba",
-      "erhvervelse": ["koebt","nyt","butik","hjemmelavet"],
+      "erhvervelse": [ "koebt", "nyt", "butik", "hjemmelavet" ],
       "farve": "creme",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "FCK",
-      "erhvervelse": ["faaet","nyt"],
+      "erhvervelse": [ "faaet", "nyt" ],
       "farve": [ "hvid", "blaa" ],
       "stil": [ "print", "brodering" ],
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "team easy on",
-      "erhvervelse": ["stjaalet"],
+      "erhvervelse": [ "stjaalet" ],
       "farve": [ "lyseroed", "orange" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "I love Nyhavn",
-      "erhvervelse": ["fundet","hjemmelavet"],
+      "erhvervelse": [ "fundet", "hjemmelavet" ],
       "farve": [ "beige", "guld" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "neutral",
-      "erhvervelse": ["koebt","nyt","marked","hjemmelavet"],
+      "erhvervelse": [ "koebt", "nyt", "marked", "hjemmelavet" ],
       "farve": "moerkeblaa",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Xofako - oys and ripped just something about",
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "lilla",
       "stil": "print",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "puma gucci single",
-      "erhvervelse": ["faaet","nyt","hjemmelavet"],
+      "erhvervelse": [ "faaet", "nyt", "hjemmelavet" ],
       "farve": [ "sort", "blaa" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Bevar Woodstock",
-      "erhvervelse": ["fundet"],
+      "erhvervelse": [ "fundet" ],
       "farve": "groen",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Exact science",
-      "erhvervelse": ["fundet"],
+      "erhvervelse": [ "fundet" ],
       "farve": [ "moerkeblaa", "sort" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Bevar Christiania",
-      "erhvervelse": ["fundet"],
+      "erhvervelse": [ "fundet" ],
       "farve": "groen",
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Armor Lux",
-      "erhvervelse": ["gave","koebt","nyt","butik"],
+      "erhvervelse": [ "gave", "koebt", "nyt", "butik" ],
       "farve": [ "moerkeroed", "moerkeblaa" ],
       "stil": "stribet",
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/metallica.jpg"
     },
     {
       "navn": "Stanley Stella ",
-      "erhvervelse": ["koebt","nyt","internettet","hjemmelavet"],
+      "erhvervelse": [ "koebt", "nyt", "internettet", "hjemmelavet" ],
       "farve": [ "lilla", "hvid" ],
       "stil": "print",
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/metallica.jpg"
     }
   ],
   "skjorter": [
     {
       "navn": "H&M svampe",
       "farve": [ "lilla", "hvid" ],
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "stil": "print",
       "slips": true,
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Butter",
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "blandede",
       "stil": "print",
       "slips": true,
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Roberto Biagini",
-      "erhvervelse": ["koebt","brugt","marked"],
+      "erhvervelse": [ "koebt", "brugt", "marked" ],
       "farve": "blandede",
       "stil": "striber",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Ralph Lauren",
@@ -253,27 +287,30 @@
     },
     {
       "navn": "Our legacy denim",
-      "erhvervelse": ["koebt","brugt","internettet"],
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "graa",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "wrangler",
-      "erhvervelse": ["koebt","brugt","genbrug"],
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "moerkeblaa",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Ravi Sehgal formel - hvid",
-      "erhvervelse": ["koebt","nyt","skraeddersyet"],
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
       "farve": "hvid",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Ravi Sehgal formel - lyseblaa",
@@ -281,7 +318,8 @@
       "farve": "lyseblaa",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "FSBN",
@@ -289,7 +327,8 @@
       "farve": "blandede",
       "stil": "print",
       "slips": true,
-      "langaermet": false
+      "langaermet": false,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Our legacy silke",
@@ -297,7 +336,8 @@
       "farve": "graa",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "B.B fashion silke - moerkeblaa",
@@ -305,7 +345,8 @@
       "farve": "moerkeblaa",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "B.B fashion silke - sort",
@@ -313,7 +354,8 @@
       "farve": "sort",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "B.B fashion silke - roed",
@@ -321,7 +363,8 @@
       "farve": "roed",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Ravi Sehgal silke - hvid",
@@ -329,7 +372,8 @@
       "farve": "hvid",
       "stil": "plain",
       "slips": false,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     }
   ]
 }
