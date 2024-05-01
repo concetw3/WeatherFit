@@ -14,24 +14,28 @@
 
 		{
 			"navn": "Fadoel slips",
-			"erhvervelse": ["koebt","genbrug","brugt"],
-			"farve": [ "sort", "gul" ]
+			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
+			"farve": [ "sort", "gul" ],
+			"billede": "./test_billeder/belt.jpg"
 
 		},
 		{
 			"navn": "magnus slips",
-			"erhvervelse": ["stjaalet","laant"],
-			"farve": "sort"
+			"erhvervelse": [ "stjaalet", "laant" ],
+			"farve": "sort",
+			"billede": "./test_billeder/belt.jpg"
 		},
 		{
 			"navn": "slips lavet til workshop",
-			"erhvervelse": ["selvlavet"],
-			"farve": "blandede"
+			"erhvervelse": [ "selvlavet" ],
+			"farve": "blandede",
+			"billede": "./test_billeder/belt.jpg"
 		},
 		{
 			"navn": "laederslips",
-			"erhvervelse": ["koebt","genbrug","brugt"],
-			"farve": "brunt"
+			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
+			"farve": "brunt",
+			"billede": "./test_billeder/belt.jpg"
 		}
 
 	],
@@ -69,13 +73,15 @@
 	"skiundertoej": [
 		{
 			"navn": "bukser",
-			"erhvervelse": ["koebt","nyt","butik"],
-			"farve": "sort"
+			"erhvervelse": [ "koebt", "nyt", "butik" ],
+			"farve": "sort",
+			"billede": "./test_billeder/belt.jpg"
 		},
 		{
 			"navn": "troeje",
-			"erhvervelse": ["gave","nyt","butik"],
-			"farve": "sort"
+			"erhvervelse": [ "gave", "nyt", "butik" ],
+			"farve": "sort",
+			"billede": "./test_billeder/belt.jpg"
 		}
 	],
 	"baelter": [

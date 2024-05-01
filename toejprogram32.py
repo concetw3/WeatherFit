@@ -201,15 +201,19 @@ def jakker():
 
 def tshirt():
     with open('./Json/t-shirts.json') as f:
-        t_shirt_og_skjorte_data = json.load(f)
-        if current_temperature > 17:
-            t_shirt_data = random.choice(t_shirt_og_skjorte_data['t-shirts'])
-            return t_shirt_data
-        else:
-            skjorte_data = random.choice(t_shirt_og_skjorte_data['skjorter'])
-            t_shirt_data = random.choice(t_shirt_og_skjorte_data['t-shirts'])
-            return t_shirt_data, skjorte_data
+        t_shirt_data = json.load(f)
+        t_shirt_data = random.choice(t_shirt_data['t-shirts'])
+        return t_shirt_data
 
+def skjorter():
+        with open('./Json/t-shirts.json') as f:
+            skjorte_data = json.load(f)
+            if current_temperature > 17:
+                skjorte_data = random.choice(skjorte_data['skjorter'])
+                return skjorte_data
+            else: 
+                return None
+                
 
 
 def get_random_lang_jakke():
@@ -231,7 +235,8 @@ def get_random_troeje():
     
 def outfit(timeseries):
     outfit = []
-    kategorier = [hovedbeklaedning, accessories, tshirt, troejer, jakker, handsker, bukser, overtraeksbukser, sko]
+    kategorier = [hovedbeklaedning, accessories, tshirt, skjorter, troejer, jakker, handsker, bukser, overtraeksbukser, sko]
+  
     for category_function in kategorier:
         result = category_function()
         if result is None:
@@ -239,18 +244,17 @@ def outfit(timeseries):
         if isinstance(result, tuple):
             for item in result:
                 if item and 'navn' in item:
-                    outfit.append(item['navn'])
+                    outfit.append({'name': item['navn'], 'category': category_function.__name__, 'image_path': item.get('billede', '')})
         elif 'navn' in result:
-            outfit.append(result['navn'])
+            outfit.append({'name': result['navn'], 'category': category_function.__name__, 'image_path': result.get('billede', '')})
    
-
+   
     if next_hour_precipitation >= 1 and 5 <= current_temperature <= 14:
-        for index, item in enumerate(outfit):
-            if 'blazer' in item:
+        for index, item_dict in enumerate(outfit):
+            if 'blazer' in item_dict['name'].lower():  # Corrected to use 'name' from dict
                 alm_troeje = get_random_troeje()
                 if alm_troeje and 'navn' in alm_troeje:
-                    outfit[index] = alm_troeje['navn']  
-                    print(outfit[index])
+                    outfit[index]['name'] = alm_troeje['navn']
                 break
 
 
@@ -260,11 +264,6 @@ def outfit(timeseries):
     with open('./Json/jakker.json') as f:
         jakker_data = json.load(f)['jakker']
 
-   
-    for index, item in enumerate(outfit):
-        if 'blazer' in item.lower():
-            blazer_found = True
-            break  
 
     
     if blazer_found:
@@ -307,7 +306,7 @@ def outfit(timeseries):
     json_dump_data = json.dumps(outfit)
     json_load_data = json.loads(json_dump_data)
 
-    #print(json_load_data)
+    print(json_load_data)
     return(json_load_data)
 
 

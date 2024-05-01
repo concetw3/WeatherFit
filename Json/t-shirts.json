@@ -279,11 +279,12 @@
     },
     {
       "navn": "Ralph Lauren",
-      "erhvervelse": ["gave","nyt","butik"],
+      "erhvervelse": [ "gave", "nyt", "butik" ],
       "farve": "hvid",
       "stil": "plain",
       "slips": true,
-      "langaermet": true
+      "langaermet": true,
+      "billede": "./test_billeder/dolce_gabbana.jpg"
     },
     {
       "navn": "Our legacy denim",
