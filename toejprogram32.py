@@ -13,10 +13,11 @@ def get_weather_forecast(latitude, longitude):
 def get_next_hour_precipitation(timeseries):
     next_hour_data = timeseries[0]['data']['next_1_hours']
     return next_hour_data['details']['precipitation_amount'] if next_hour_data else 0
+    
 
 def get_current_temperature(timeseries):
     return timeseries[0]['data']['instant']['details']['air_temperature']
-    
+      
     
    
   
@@ -71,12 +72,13 @@ def slips():
         return random.choice(accessories_data['slips'])
                     
 
-def accessories():
-    with open('./Json//accessories.json') as f:
-        accessories_data = json.load(f)
+def solbriller():
+    with open('./Json/solbriller.json') as f:
+        solbriller_data = json.load(f)  
     symbol_code = get_next_hour_symbol_code(timeseries) 
-    if symbol_code == 'clearsky_day':
-        return accessories_data['solbriller']
+    if symbol_code in ['fair_day', 'clearsky_day']:
+        return random.choice(solbriller_data['solbriller'])
+        
 
 def bukser():
     with open('./Json/bukser.json') as f:
@@ -88,18 +90,12 @@ def bukser():
              sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 3 <= num <= 6]
              tilfaeldige_keys = random.choice(sorter_varme_keys)
              bukser_info = bukser_data['bukser'][tilfaeldige_keys]
-             if bukser_info.get('baelte', False):  
-                 return bukser_info, baelter()
-             else:
-                 return bukser_info, None
+             return bukser_info
         elif -10 <= current_temperature <= 9:
             sorter_varme_keys = [i for i, num in enumerate(find_varme_keys) if 5 <= num <= 7]
             tilfaeldige_keys = random.choice(sorter_varme_keys) 
             bukser_info = bukser_data['bukser'][tilfaeldige_keys]
-            if bukser_info.get('baelte', False):  
-                 return bukser_info, baelter()
-            else:
-                 return bukser_info, None
+            return bukser_info
 
 def overtraeksbukser():
     with open('./Json/bukser.json') as f:
@@ -208,7 +204,7 @@ def tshirt():
 def skjorter():
         with open('./Json/t-shirts.json') as f:
             skjorte_data = json.load(f)
-            if current_temperature > 17:
+            if current_temperature < 17:
                 skjorte_data = random.choice(skjorte_data['skjorter'])
                 return skjorte_data
             else: 
@@ -235,8 +231,11 @@ def get_random_troeje():
     
 def outfit(timeseries):
     outfit = []
-    kategorier = [hovedbeklaedning, accessories, tshirt, skjorter, troejer, jakker, handsker, bukser, overtraeksbukser, sko]
+    kategorier = [hovedbeklaedning, solbriller, tshirt, skjorter, troejer, jakker, handsker, bukser, overtraeksbukser, sko, baelter]
   
+    belts = []
+
+
     for category_function in kategorier:
         result = category_function()
         if result is None:
@@ -244,10 +243,24 @@ def outfit(timeseries):
         if isinstance(result, tuple):
             for item in result:
                 if item and 'navn' in item:
-                    outfit.append({'name': item['navn'], 'category': category_function.__name__, 'image_path': item.get('billede', '')})
+                    if category_function.__name__ == 'bukser' and not item.get('baelte', False):
+                        belts.append(item)
+                    else:
+                        outfit.append({'name': item['navn'], 'category': category_function.__name__, 'image_path': item.get('billede', '')})
         elif 'navn' in result:
-            outfit.append({'name': result['navn'], 'category': category_function.__name__, 'image_path': result.get('billede', '')})
+            if category_function.__name__ == 'bukser' and not result.get('baelte', False):
+                belts.append(result)
+            else:
+                outfit.append({'name': result['navn'], 'category': category_function.__name__, 'image_path': result.get('billede', '')})
    
+    # Process belts separately
+    for belt in belts:
+        outfit.append({'name': belt['navn'], 'category': 'baelter', 'image_path': belt.get('billede', '')})
+   
+
+
+    
+
    
     if next_hour_precipitation >= 1 and 5 <= current_temperature <= 14:
         for index, item_dict in enumerate(outfit):
@@ -274,7 +287,7 @@ def outfit(timeseries):
                 new_jacket = get_random_lang_jakke()
                 if new_jacket:
                     outfit[index] = new_jacket['navn']
-                   # print(f"Replaced {item} with {new_jacket['navn']}")
+                    # print(f"Replaced {item} with {new_jacket['navn']}")
                     break 
     #else:
         #print("No blazer found; no jackets were replaced.")
@@ -287,19 +300,19 @@ def outfit(timeseries):
     new_path = os.path.join(directory, new_filename) 
 
     if not os.path.exists(directory):
-        os.mkdir(directory)
+    os.mkdir(directory)
     
     with open(new_path, "w") as f:
-        json.dump(outfit, f, indent=4)
+    json.dump(outfit, f, indent=4)
     '''    
     '''
     conn = http.client.HTTPSConnection("api.pushover.net:443")
     conn.request("POST", "/1/messages.json",
-      urllib.parse.urlencode({
-        "token": "agv6vuha11wiv4a7gw55qwjmpp97az",
-        "user": "uz7q8o8jtapyur766atyoyuwjxmp4h",
-        "message": json.dumps(outfit, indent=4),
-      }), { "Content-type": "application/x-www-form-urlencoded" })
+    urllib.parse.urlencode({
+    "token": "agv6vuha11wiv4a7gw55qwjmpp97az",
+    "user": "uz7q8o8jtapyur766atyoyuwjxmp4h",
+    "message": json.dumps(outfit, indent=4),
+    }), { "Content-type": "application/x-www-form-urlencoded" })
     conn.getresponse()
     '''
 
@@ -317,7 +330,7 @@ def outfit(timeseries):
 def main():
     outfit1 = outfit(timeseries)
     symbol_code = get_next_hour_symbol_code(timeseries)
-    #print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code} sandsynligheden for at det kommer til at regne er {next_hour_precipitation}")
+    print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code} sandsynligheden for at det kommer til at regne er {next_hour_precipitation}")
  
 if __name__ == "__main__":
     main()

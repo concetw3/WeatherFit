@@ -8,7 +8,7 @@ outfit_liste = outfit(timeseries)
 
 
 layout = {
-    'skjorter': (0, 0), '1': (0, 1), 'hovedbeklaedning': (0, 2), '3': (0, 3), 'jakker': (0, 4),
+    'skjorter': (0, 0), '1': (0, 1),'hovedbeklaedning': (0, 2), '3': (0, 3), 'jakker': (0, 4),
     'solbriller': (1, 0), '6': (1, 1), 't-shirts': (1, 2), '8': (1, 3), 'slips': (1, 4),
     'overtraeksbukser': (2, 0), '11': (2, 1), 'bukser_shorts': (2, 2), '13': (2, 3), 'handsker': (2, 4),
     'troejer': (3, 0), '16': (3, 1), 'sko': (3, 2), '18': (3, 3), 'baelter': (3, 4),
@@ -16,8 +16,7 @@ layout = {
 
 
 position_mapping = {
-    'huer': 'hovedbeklaedning',
-    'kasketter': 'hovedbeklaedning',
+    'hovedbeklaedning' : 'hovedbeklaedning',
     'tshirt': 't-shirts',
     'bukser': 'bukser_shorts',
     'shorts': 'bukser_shorts',

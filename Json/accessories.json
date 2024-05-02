@@ -1,14 +1,4 @@
 {
-	"solbriller": [
-
-		{
-			"navn": "Tom Ford",
-			"erhvervelse": [ "bytte" ],
-			"farve": "blaa",
-			"billede": "./test_billeder/solbriller.jpg"
-		}
-
-	],
 
 	"slips": [
 
