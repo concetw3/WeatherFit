@@ -38,14 +38,14 @@ def load_json_file(path):
         return json.load(f)
 
 
-accessories_data = load_json_file('./Json/accessories.json')
-hovedbeklaedning_data = load_json_file('./Json/hovedbeklaedning.json')
-bukser_data = load_json_file('./Json/bukser.json')
-solbriller_data = load_json_file('./Json/solbriller.json')
-sko_data = load_json_file('./Json/sko.json')
-troejer_data = load_json_file('./Json/troejer.json')
-jakker_data = load_json_file('./Json/jakker.json')
-t_shirts_data = load_json_file('./Json/t-shirts.json')
+accessories_data = load_json_file('/T-jprogram//Json/accessories.json')
+hovedbeklaedning_data = load_json_file('/T-jprogram//Json/hovedbeklaedning.json')
+bukser_data = load_json_file('/T-jprogram//Json/bukser.json')
+solbriller_data = load_json_file('/T-jprogram//Json/solbriller.json')
+sko_data = load_json_file('/T-jprogram//Json/sko.json')
+troejer_data = load_json_file('/T-jprogram//Json/troejer.json')
+jakker_data = load_json_file('/T-jprogram//Json/jakker.json')
+t_shirts_data = load_json_file('/T-jprogram//Json/t-shirts.json')
 
 
 latitude = 55.67
@@ -120,9 +120,9 @@ def jakker():
             return random.choice([item for item in jakker_data['jakker'] if 7 <= item['varme'] <= 8])
         elif 3 <= current_temperature <= 6: 
             return random.choice([item for item in jakker_data['jakker'] if 6 <= item['varme'] <= 7])
-        elif 7 <= current_temperature <= 12:
+        elif 7 <= current_temperature <= 10:
             return random.choice([item for item in jakker_data['jakker'] if 4 <= item['varme'] <= 5])
-        elif 12 <= current_temperature <= 17:
+        elif 10 <= current_temperature <= 14:
             return random.choice([item for item in jakker_data['jakker'] if 0 <= item['varme'] <= 3])
         elif current_temperature > 18:
                 return None 
@@ -192,8 +192,10 @@ def outfit(timeseries):
                 if new_jacket:
                     outfit[index] = new_jacket['navn']
                     break 
-   
-    '''            
+    
+    json_dump_data = json.dumps(outfit)
+    json_load_data = json.loads(json_dump_data)
+               
     FORMAT = '%Y%m%d%H%M%S'
     directory = "/T-jprogram/Logs"
     filename = "vejr.txt"
@@ -201,27 +203,25 @@ def outfit(timeseries):
     new_path = os.path.join(directory, new_filename) 
 
     if not os.path.exists(directory):
-    os.mkdir(directory)
+        os.mkdir(directory)
     
     with open(new_path, "w") as f:
-    json.dump(outfit, f, indent=4)
-    '''    
-    '''
-    conn = http.client.HTTPSConnection("api.pushover.net:443")
-    conn.request("POST", "/1/messages.json",
-    urllib.parse.urlencode({
-    "token": "agv6vuha11wiv4a7gw55qwjmpp97az",
-    "user": "uz7q8o8jtapyur766atyoyuwjxmp4h",
-    "message": json.dumps(outfit, indent=4),
-    }), { "Content-type": "application/x-www-form-urlencoded" })
-    conn.getresponse()
-    '''
+        json.dump(json_load_data, f, indent=4)
+        
+        conn = http.client.HTTPSConnection("api.pushover.net:443")
+        conn.request("POST", "/1/messages.json",
+        urllib.parse.urlencode({
+        "token": "agv6vuha11wiv4a7gw55qwjmpp97az",
+        "user": "uz7q8o8jtapyur766atyoyuwjxmp4h",
+        "message": json.dumps(json_load_data, indent=4),
+        }), { "Content-type": "application/x-www-form-urlencoded" })
+        conn.getresponse()
+   
 
-    json_dump_data = json.dumps(outfit)
-    json_load_data = json.loads(json_dump_data)
+    
 
-    print(json_load_data)
-    return(json_load_data)
+    #print(json_load_data)
+    #return(json_load_data)
 
 
     
@@ -231,7 +231,7 @@ def outfit(timeseries):
 def main():
     outfit1 = outfit(timeseries)
     symbol_code = get_next_hour_symbol_code(timeseries)
-    print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code} sandsynligheden for at det kommer til at regne er {next_hour_precipitation}")
+    #print(f"temperatur er lige nu {current_temperature} og vejrsituationen er {symbol_code} sandsynligheden for at det kommer til at regne er {next_hour_precipitation}")
  
 if __name__ == "__main__":
     main()

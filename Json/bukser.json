@@ -120,41 +120,48 @@
     {
       "navn": "Kappa",
       "erhvervelse": [ "koebt", "brugt", "marked" ],
+      "baelte": false,
       "farve": [ "lyseroed", "sort" ],
       "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "Bjorn borg",
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "baelte": false,
       "farve": "lyseblaa",
       "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "New Zealand - all blacks",
       "erhvervelse": [ "stjaalet", "laant" ],
+      "baelte": false,
       "farve": "sort",
       "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "unbranded",
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "baelte": false,
       "farve": [ "lyseroed", "sort" ],
       "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "Nike dri-fit",
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "baelte": false,
       "farve": "lyseblaa",
       "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "All sports",
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "baelte": false,
       "farve": [ "hvid", "blaa" ],
       "billede": "./test_billeder/shorts.jpg"
     },
     {
       "navn": "klippet JKS arbejdsbukser",
+      "baelte": false,
       "erhvervelse": [ "faaet" ],
       "farve": "sort",
       "billede": "./test_billeder/shorts.jpg"
