@@ -15,7 +15,8 @@ def get_next_hour_precipitation(timeseries):
     return next_hour_data['details']['precipitation_amount'] if next_hour_data else 0
     
 def get_current_temperature(timeseries):
-    return timeseries[0]['data']['instant']['details']['air_temperature']
+    return 5
+    #return timeseries[0]['data']['instant']['details']['air_temperature']
           
 def get_next_hour_symbol_code(timeseries):
     next_hour_data = timeseries[0]['data']['next_1_hours']
@@ -38,14 +39,14 @@ def load_json_file(path):
         return json.load(f)
 
 
-accessories_data = load_json_file('/T-jprogram//Json/accessories.json')
-hovedbeklaedning_data = load_json_file('/T-jprogram//Json/hovedbeklaedning.json')
-bukser_data = load_json_file('/T-jprogram//Json/bukser.json')
-solbriller_data = load_json_file('/T-jprogram//Json/solbriller.json')
-sko_data = load_json_file('/T-jprogram//Json/sko.json')
-troejer_data = load_json_file('/T-jprogram//Json/troejer.json')
-jakker_data = load_json_file('/T-jprogram//Json/jakker.json')
-t_shirts_data = load_json_file('/T-jprogram//Json/t-shirts.json')
+accessories_data = load_json_file('./Json/accessories.json')
+hovedbeklaedning_data = load_json_file('./Json/hovedbeklaedning.json')
+bukser_data = load_json_file('./Json/bukser.json')
+solbriller_data = load_json_file('./Json/solbriller.json')
+sko_data = load_json_file('./Json/sko.json')
+troejer_data = load_json_file('./Json/troejer.json')
+jakker_data = load_json_file('./Json/jakker.json')
+t_shirts_data = load_json_file('./Json/t-shirts.json')
 
 
 latitude = 55.67
@@ -150,27 +151,32 @@ def get_random_troeje():
 def outfit(timeseries):
     outfit = []
     belts = []
-    kategorier = [hovedbeklaedning, solbriller, tshirt, skjorter, troejer, jakker, handsker, bukser, overtraeksbukser, sko, baelter]
+    kategorier = [hovedbeklaedning, solbriller, tshirt, skjorter, troejer, jakker, handsker, bukser, overtraeksbukser, sko]
   
     for category_function in kategorier:
         result = category_function()
         if result is None:
-            continue  
-        if isinstance(result, tuple):
+            continue
+        if isinstance(result, list):
             for item in result:
-                if item and 'navn' in item:
-                    if category_function.__name__ == 'bukser' and not item.get('baelte', False):
-                        belts.append(item)
+                if isinstance(item, dict) and 'navn' in item:
+                    if category_function.__name__ == 'bukser':
+                        if item.get('baelte', False):  # Check if a belt is actually needed
+                            belt = baelter()  # Call baelter() to get a belt item
+                            outfit.append({'name': belt['navn'], 'category': 'baelter', 'image_path': belt['billede']})
+                        # Always add the pants to the outfit
+                        outfit.append({'name': item['navn'], 'category': 'bukser', 'image_path': item['billede']})
                     else:
                         outfit.append({'name': item['navn'], 'category': category_function.__name__, 'image_path': item.get('billede', '')})
-        elif 'navn' in result:
-            if category_function.__name__ == 'bukser' and not result.get('baelte', False):
-                belts.append(result)
+        elif isinstance(result, dict) and 'navn' in result:
+            if category_function.__name__ == 'bukser':
+                if result.get('baelte', False):  # Check if a belt is actually needed
+                    belt = baelter()  # Call baelter() to get a belt item
+                    outfit.append({'name': belt['navn'], 'category': 'baelter', 'image_path': belt['billede']})
+                # Always add the pants to the outfit
+                outfit.append({'name': result['navn'], 'category': 'bukser', 'image_path': result['billede']})
             else:
                 outfit.append({'name': result['navn'], 'category': category_function.__name__, 'image_path': result.get('billede', '')})
-   
-    for belt in belts:
-        outfit.append({'name': belt['navn'], 'category': 'baelter', 'image_path': belt.get('billede', '')})
    
     if next_hour_precipitation >= 1 and 5 <= current_temperature <= 14:
         for index, item_dict in enumerate(outfit):
@@ -197,11 +203,11 @@ def outfit(timeseries):
     json_load_data = json.loads(json_dump_data)
                
     FORMAT = '%Y%m%d%H%M%S'
-    directory = "/T-jprogram/Logs"
+    directory = "./Logs"
     filename = "vejr.txt"
     new_filename = '%s_%s' % (datetime.now().strftime(FORMAT), filename)
     new_path = os.path.join(directory, new_filename) 
-
+    '''
     if not os.path.exists(directory):
         os.mkdir(directory)
     
@@ -216,11 +222,11 @@ def outfit(timeseries):
         "message": json.dumps(json_load_data, indent=4),
         }), { "Content-type": "application/x-www-form-urlencoded" })
         conn.getresponse()
-   
+    '''
 
     
 
-    #print(json_load_data)
+    print(json_load_data)
     #return(json_load_data)
 
 
