@@ -2,6 +2,7 @@ from PIL import Image
 import os
 import random
 from toejprogram_clean import outfit, timeseries
+from datetime import datetime
 
 
 outfit_liste = outfit(timeseries)
@@ -82,6 +83,7 @@ for (pos, category), images in position_images.items():
         random_img = random.choice(images)
         grid_image.paste(random_img, (pos[1] * cell_width, pos[0] * cell_height))
 
-
+filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + '.jpg'
+grid_image.save(filename, 'JPEG')
 grid_image.save('image_grid.jpg')
 grid_image.show()
