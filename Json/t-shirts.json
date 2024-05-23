@@ -6,7 +6,7 @@
       "erhvervelse": [ "fundet", "hjemmelavet" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Kappa",
@@ -14,7 +14,7 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "stil": "striber",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Made in Heaven",
@@ -22,7 +22,7 @@
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "stil": "striber",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Dolce & Gabbana",
@@ -30,7 +30,7 @@
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "stil": "stiber",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "DR3 CS",
@@ -38,7 +38,7 @@
       "farve": "hvid",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Boundaries band t-shirt",
@@ -46,7 +46,7 @@
       "farve": [ "hvid", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Loesriv Lolland",
@@ -54,7 +54,7 @@
       "farve": "sort",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Lever det her liv sindssyge liv som flok tror jeg tager serioest",
@@ -62,7 +62,7 @@
       "farve": "blandede",
       "stil": [ "moenster", "print" ],
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Eriksminde efterskole 11/12",
@@ -70,7 +70,7 @@
       "farve": [ "sort", "hvid" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "L.L.L.L",
@@ -78,7 +78,7 @@
       "farve": "blandede",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Anholt kro - t-shirt",
@@ -86,7 +86,7 @@
       "farve": [ "orange", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Anholt Kro - polo",
@@ -94,7 +94,7 @@
       "farve": [ "orange", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "G-star raw",
@@ -102,7 +102,7 @@
       "farve": "graa",
       "stil": "print",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Broder",
@@ -110,7 +110,7 @@
       "farve": [ "sort", "hvid" ],
       "stil": "stil",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Janushoved",
@@ -118,7 +118,7 @@
       "farve": [ "hvid", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Stockholm surfboard club",
@@ -126,7 +126,7 @@
       "farve": [ "gul", "blandede" ],
       "stil": "print",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Bad Axe throwing",
@@ -134,7 +134,7 @@
       "farve": [ "sort", "roed" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Divided tank top",
@@ -142,7 +142,7 @@
       "farve": "sort",
       "stil": "plain",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Pafund til rigets ende",
@@ -150,7 +150,7 @@
       "farve": [ "hvid", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Vi har travlt simba",
@@ -158,7 +158,7 @@
       "farve": "creme",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "FCK",
@@ -166,7 +166,7 @@
       "farve": [ "hvid", "blaa" ],
       "stil": [ "print", "brodering" ],
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "team easy on",
@@ -174,7 +174,7 @@
       "farve": [ "lyseroed", "orange" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "I love Nyhavn",
@@ -182,7 +182,7 @@
       "farve": [ "beige", "guld" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "neutral",
@@ -190,7 +190,7 @@
       "farve": "moerkeblaa",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Xofako - oys and ripped just something about",
@@ -198,7 +198,7 @@
       "farve": "lilla",
       "stil": "print",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "puma gucci single",
@@ -206,7 +206,7 @@
       "farve": [ "sort", "blaa" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Bevar Woodstock",
@@ -214,7 +214,7 @@
       "farve": "groen",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Exact science",
@@ -222,7 +222,7 @@
       "farve": [ "moerkeblaa", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Bevar Christiania",
@@ -230,7 +230,7 @@
       "farve": "groen",
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Armor Lux",
@@ -238,7 +238,7 @@
       "farve": [ "moerkeroed", "moerkeblaa" ],
       "stil": "stribet",
       "langaermet": true,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Stanley Stella ",
@@ -246,7 +246,7 @@
       "farve": [ "lilla", "hvid" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./test_billeder/metallica.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     }
   ],
   "skjorter": [
@@ -257,7 +257,7 @@
       "stil": "print",
       "slips": true,
       "langaermet": false,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Butter",
@@ -266,7 +266,7 @@
       "stil": "print",
       "slips": true,
       "langaermet": false,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Roberto Biagini",
@@ -275,7 +275,7 @@
       "stil": "striber",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Ralph Lauren",
@@ -284,7 +284,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Our legacy denim",
@@ -293,7 +293,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "wrangler",
@@ -302,7 +302,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Ravi Sehgal formel - hvid",
@@ -311,7 +311,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Ravi Sehgal formel - lyseblaa",
@@ -320,7 +320,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "FSBN",
@@ -329,7 +329,7 @@
       "stil": "print",
       "slips": true,
       "langaermet": false,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Our legacy silke",
@@ -338,7 +338,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "B.B fashion silke - moerkeblaa",
@@ -347,7 +347,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "B.B fashion silke - sort",
@@ -356,7 +356,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "B.B fashion silke - roed",
@@ -365,7 +365,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     },
     {
       "navn": "Ravi Sehgal silke - hvid",
@@ -374,7 +374,7 @@
       "stil": "plain",
       "slips": false,
       "langaermet": true,
-      "billede": "./test_billeder/dolce_gabbana.jpg"
+      "billede": "./billeder/tshirts/.jpg"
     }
   ]
 }
