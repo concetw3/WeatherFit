@@ -62,13 +62,13 @@
 
 	"skiundertoej": [
 		{
-			"navn": "bukser",
+			"navn": "skiunder-bukser",
 			"erhvervelse": [ "koebt", "nyt", "butik" ],
 			"farve": "sort",
 			"billede": "./test_billeder/belt.jpg"
 		},
 		{
-			"navn": "troeje",
+			"navn": "skiunder-troeje",
 			"erhvervelse": [ "gave", "nyt", "butik" ],
 			"farve": "sort",
 			"billede": "./test_billeder/belt.jpg"
