@@ -7,7 +7,7 @@
       "sandaler": false,
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "varme": 5,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_elten_arbejdssko.jpg"
     },
     {
       "navn": "Colombia Sandaler",
@@ -16,7 +16,7 @@
       "vandtaet": false,
       "sandaler": true,
       "varme": 0,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_columbia_sandaler.jpg"
     },
     {
       "navn": "Red Wing",
@@ -25,7 +25,7 @@
       "vandtaet": true,
       "sandaler": false,
       "varme": 8,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_red_wing.jpg"
     },
     {
       "navn": "Lloyd",
@@ -34,7 +34,7 @@
       "vandtaet": false,
       "sandaler": false,
       "varme": 4,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_lloyd.jpg"
     },
     {
       "navn": "Asics",
@@ -43,7 +43,7 @@
       "vandtaet": false,
       "sandaler": false,
       "varme": 4,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_asics.jpg"
     },
     {
       "navn": "Derossi",
@@ -52,7 +52,7 @@
       "vandtaet": false,
       "sandaler": false,
       "varme": 4,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_derossi.jpg"
     },
     {
       "navn": "Playboy uden snoerrebaand",
@@ -61,7 +61,7 @@
       "vandtaet": false,
       "sandaler": false,
       "varme": 4,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_playboy_uden_snoerrebånd.jpg"
     },
     {
       "navn": "Sendra stoevler",
@@ -70,7 +70,7 @@
       "vandtaet": true,
       "sandaler": false,
       "varme": 8,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_sendra.jpg"
     },
     {
       "navn": "Nike air max 95",
@@ -79,7 +79,7 @@
       "vandtaet": false,
       "sandaler": false,
       "varme": 5,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_nike_air_max.jpg"
     },
     {
       "navn": "Camper stoevler",
@@ -88,7 +88,7 @@
       "vandtaet": true,
       "sandaler": false,
       "varme": 8,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_camper.jpg"
     },
     {
       "navn": "Kappa badesandaler",
@@ -97,7 +97,16 @@
       "vandtaet": false,
       "sandaler": true,
       "varme": 0,
-      "billede": "./test_billeder/aquaman.jpg"
+      "billede": "./billeder/sko/sko_kappa_badesandaler.jpg"
+    },
+    {
+      "navn": "nike flywire",
+      "farve": [ "sort", "hvid" ],
+      "erhvervelse": [ "koebt", "butik" ],
+      "vandtaet": false,
+      "sandaler": true,
+      "varme": 5,
+      "billede": "./billeder/sko/sko_nike_flywire.jpg"
     }
 
 

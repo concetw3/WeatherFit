@@ -8,7 +8,7 @@
       "vandtaet": false,
       "varme": 10,
       "lang": false,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_north_face.jpg"
     },
     {
       "navn": "Henri Lloyd oilskin",
@@ -17,7 +17,7 @@
       "vandtaet": false,
       "varme": 5,
       "lang": true,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_henri_lloyd.jpg"
     },
     {
       "navn": "Cressida pels",
@@ -26,7 +26,7 @@
       "vandtaet": false,
       "varme": 8,
       "lang": false,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_cressida.jpg"
     },
     {
       "navn": "H2O regnjakke",
@@ -35,7 +35,7 @@
       "vandtaet": true,
       "varme": 2,
       "lang": false,
-      "billede": "./test_billeder/regnjakke.jpg"
+      "billede": "./billeder/jakker/jakker_h2o.jpg"
     },
     {
       "navn": "Helly Hansen regnjakke",
@@ -44,7 +44,7 @@
       "vandtaet": true,
       "varme": 2,
       "lang": false,
-      "billede": "./test_billeder/regnjakke.jpg"
+      "billede": "./billeder/jakker/jakker_helly_hansen.jpg"
     },
     {
       "navn": "Laederjakke",
@@ -53,7 +53,7 @@
       "vandtaet": false,
       "varme": 5,
       "lang": true,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_laederjakke.jpg"
     },
     {
       "navn": "Moebeltransport danmark",
@@ -62,7 +62,7 @@
       "vandtaet": false,
       "varme": 6,
       "lang": false,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_moebeltransport.jpg"
     },
     {
       "navn": "J guide",
@@ -71,7 +71,7 @@
       "vandtaet": false,
       "varme": 2,
       "lang": false,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_j_guide.jpg"
     },
     {
       "navn": "Kansas arbejdsjakke",
@@ -80,7 +80,16 @@
       "vandtaet": false,
       "varme": 3,
       "lang": false,
-      "billede": "./test_billeder/jakke.jpg"
+      "billede": "./billeder/jakker/jakker_kansas.jpg"
+    },
+    {
+      "navn": "Cintamina",
+      "farve": "blaa",
+      "erhvervelse": [ "koebt", "brugt", "genbrug" ],
+      "vandtaet": false,
+      "varme": 4,
+      "lang": false,
+      "billede": "./billeder/jakker/jakker_cintamani.jpg"
     }
     
 

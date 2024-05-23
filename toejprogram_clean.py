@@ -15,8 +15,8 @@ def get_next_hour_precipitation(timeseries):
     return next_hour_data['details']['precipitation_amount'] if next_hour_data else 0
     
 def get_current_temperature(timeseries):
-    return 5
-    #return timeseries[0]['data']['instant']['details']['air_temperature']
+    return 1
+   # timeseries[0]['data']['instant']['details']['air_temperature']
           
 def get_next_hour_symbol_code(timeseries):
     next_hour_data = timeseries[0]['data']['next_1_hours']
@@ -116,7 +116,8 @@ def troejer():
 
 def jakker():  
         if next_hour_precipitation >= 1:    
-            return random.choice(item for item in jakker_data['jakker'] if item['vandtaet'])
+            filtered_items = [item for item in jakker_data['jakker'] if item['vandtaet']]
+            return random.choice(filtered_items)
         elif current_temperature < 3:
             return random.choice([item for item in jakker_data['jakker'] if 7 <= item['varme'] <= 8])
         elif 3 <= current_temperature <= 6: 
@@ -227,7 +228,7 @@ def outfit(timeseries):
     
 
     print(json_load_data)
-    #return(json_load_data)
+    return(json_load_data)
 
 
     

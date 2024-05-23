@@ -4,7 +4,13 @@
       "navn": "Tom Ford",
       "erhvervelse": [ "bytte" ],
       "farve": "blaa",
-      "billede": "./test_billeder/solbriller.jpg"
+      "billede": "./billeder/acc/acc_sorte_solbriller.jpg"
+    },
+    {
+      "navn": "ferrari",
+      "erhvervelse": [ "bytte" ],
+      "farve": "sorte",
+      "billede": "./billeder/acc/acc_sorte_solbriller.jpg"
     }
   ]
 }

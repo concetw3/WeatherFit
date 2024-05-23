@@ -31,13 +31,6 @@
 	],
 	"handsker": [
 		{
-			"navn": "Thinsulate - aqua trail",
-			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
-			"farve": [ "sort", "graa", "hvid" ],
-			"varme": 6,
-			"billede": "./test_billeder/handsker.jpg"
-		},
-		{
 			"navn": "Hestra",
 			"erhvervelse": [ "gave", "nyt", "butik" ],
 			"farve": "sort",
@@ -49,14 +42,7 @@
 			"erhvervelse": [ "fundet" ],
 			"farve": "graa",
 			"varme": 3,
-			"billede": "./test_billeder/handsker.jpg"
-		},
-		{
-			"navn": "maxiflex",
-			"erhvervelse": [ "fundet" ],
-			"farve": "graa",
-			"varme": 3,
-			"billede": "./test_billeder/handsker.jpg"
+			"billede": "./billeder/acc/acc_handsker_m_knopper.jpg"
 		}
 	],
 
@@ -79,13 +65,13 @@
 			"navn": "Huge Boss",
 			"erhvervelse": [ "koebt", "genbrug", "brugt" ],
 			"farve": "sort",
-			"billede": "./test_billeder/belt.jpg"
+			"billede": "./billeder/acc/acc_hugo_boss.jpg"
 		},
 		{
 			"navn": "bredt baelte",
 			"erhvervelse": [ "koebt", "internettet", "brugt" ],
 			"farve": "sort",
-			"billede": "./test_billeder/belt.jpg"
+			"billede": "./billeder/acc/acc_bredt_baelte.jpg"
 		},
 		{
 			"navn": "metal baelte",
@@ -93,8 +79,9 @@
 			"farve": "soelv",
 			"dato": "12/03/2024",
 			"pris": "130DKK",
-			"billede": "./test_billeder/belt.jpg"
+			"billede": "./billeder/acc/acc_metalbaelte.jpg"
 		}
 	]
 
 }
+

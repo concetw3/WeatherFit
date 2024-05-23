@@ -8,7 +8,7 @@
       "varme": 5,
       "stil": "print",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_hardstyler_dot_dk.jpg"
     },
     {
       "navn": "Kappa tracktop",
@@ -17,7 +17,7 @@
       "varme": 3,
       "stil": "plain",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_kappa.jpg"
     },
     {
       "navn": "Mascot haettetroeje",
@@ -26,7 +26,7 @@
       "varme": 5,
       "stil": "plain",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_mascot.jpg"
     },
     {
       "navn": "Superdry",
@@ -35,7 +35,7 @@
       "varme": 5,
       "stil": "plain",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_superdry.jpg"
     },
     {
       "navn": "H2O",
@@ -44,7 +44,7 @@
       "varme": 6,
       "stil": "plain",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_h2o_2.jpg"
     },
     {
       "navn": "Metallifuckinga haettetroeje",
@@ -53,7 +53,7 @@
       "varme": 5,
       "stil": "print",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_metallica.jpg"
     },
     {
       "navn": "Inspired new york blazer",
@@ -62,7 +62,7 @@
       "varme": 5,
       "stil": "plain",
       "blazer": true,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_blazer_inspired.jpg"
     },
     {
       "navn": "Device blazer",
@@ -71,7 +71,7 @@
       "varme": 5,
       "stil": "plain",
       "blazer": true,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_blazer_device.jpg"
     },
     {
       "navn": "Bruuns Bazar blazer",
@@ -80,8 +80,9 @@
       "varme": 5,
       "stil": "plain",
       "blazer": true,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/trojer_blazer_bruuns_bazaar.jpg"
     },
+    
     {
       "navn": "JKS arbejdstroeje m. malingpletter",
       "erhvervelse": [ "faaet" ],
@@ -89,7 +90,7 @@
       "varme": 5,
       "stil": "print",
       "blazer": false,
-      "billede": "./test_billeder/hussein_chalayan.jpg"
+      "billede": "./billeder/troejer/troejer_metallica.jpg"
     }
 
 
@@ -103,7 +104,7 @@
       "farve": "petroleum",
       "stil": "plain",
       "varme": 8,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_sns_petroleum.jpg"
     },
     {
       "navn": "Andersen & Andersen",
@@ -111,7 +112,7 @@
       "farve": "brun",
       "stil": "plain",
       "varme": 9,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_andersen.jpg"
     },
     {
       "navn": "SNS",
@@ -119,7 +120,7 @@
       "farve": "moerkeblaa",
       "stil": "plain",
       "varme": 7,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_sns_moerkeblaa.jpg"
     },
     {
       "navn": "Norse projects",
@@ -127,7 +128,7 @@
       "farve": "graa",
       "stil": "plain",
       "varme": 7,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_norse.jpg"
     },
     {
       "navn": "Dale of norway",
@@ -135,7 +136,7 @@
       "farve": [ "groen", "roed", "hvid" ],
       "stil": "moenster",
       "varme": 9,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_dale_of_norway.jpg"
     },
     {
       "navn": "Hjemmestrik",
@@ -143,7 +144,7 @@
       "farve": "sort",
       "stil": "plain",
       "varme": 6,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_hjemmestrik.jpg"
     },
     {
       "navn": "North by 66",
@@ -151,7 +152,7 @@
       "farve": "sort",
       "stil": "plain",
       "varme": 7,
-      "billede": "./test_billeder/elder_statesman.jpg"
+      "billede": "./billeder/troejer/troejer_sweater_66bynorth.jpg"
     }
 
   ]

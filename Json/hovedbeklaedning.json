@@ -5,14 +5,21 @@
       "erhvervelse": [ "koebt", "brugt", "butik" ],
       "farve": "moerkeblaa",
       "varme": 0,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hat_uponor.jpg"
     },
     {
       "navn": "Rockstars and angels",
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": [ "roed", "moerkeblaa", "hvid" ],
       "varme": 0,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hat_uponor.jpg"
+    },
+    {
+      "navn": "Tiger",
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": [ "roed", "moerkeblaa", "hvid" ],
+      "varme": 0,
+      "billede": "./billeder/acc/acc_hat_tiger.jpg"
     }
 
   ],

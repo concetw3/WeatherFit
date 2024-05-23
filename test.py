@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 import random
-from toejprogram32 import outfit, timeseries
+from toejprogram_clean import outfit, timeseries
 
 
 outfit_liste = outfit(timeseries)
@@ -58,6 +58,8 @@ position_images = {}
 
 
 for item in outfit_liste:
+    if item is None:
+        continue  # Skip None values
     category = position_mapping.get(item['category'], None)
     if category and category in layout:
         pos = layout[category]
