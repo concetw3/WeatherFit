@@ -208,13 +208,13 @@ def outfit(timeseries):
     filename = "vejr.txt"
     new_filename = '%s_%s' % (datetime.now().strftime(FORMAT), filename)
     new_path = os.path.join(directory, new_filename) 
-    '''
+    
     if not os.path.exists(directory):
         os.mkdir(directory)
     
     with open(new_path, "w") as f:
         json.dump(json_load_data, f, indent=4)
-        
+    '''    
         conn = http.client.HTTPSConnection("api.pushover.net:443")
         conn.request("POST", "/1/messages.json",
         urllib.parse.urlencode({

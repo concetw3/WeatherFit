@@ -46,7 +46,7 @@
       "farve": [ "hvid", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts//t_shirts_boundaries.jpg"
     },
     {
       "navn": "Loesriv Lolland",
@@ -62,7 +62,7 @@
       "farve": "blandede",
       "stil": [ "moenster", "print" ],
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts//t_shirts_lever_det_her.jpg"
     },
     {
       "navn": "Eriksminde efterskole 11/12",
@@ -182,7 +182,7 @@
       "farve": [ "beige", "guld" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts//t_shirts_i_love_nyhavn.jpg"
     },
     {
       "navn": "neutral",
@@ -215,14 +215,6 @@
       "stil": "print",
       "langaermet": false,
       "billede": "./billeder/tshirts/t_shirts_bevar_woodstock.jpg"
-    },
-    {
-      "navn": "Exact science",
-      "erhvervelse": [ "fundet" ],
-      "farve": [ "moerkeblaa", "sort" ],
-      "stil": "print",
-      "langaermet": false,
-      "billede": "./billeder/tshirts/t_shirts_exact_science.jpg"
     },
     {
       "navn": "Bevar Christiania",
@@ -262,7 +254,23 @@
       "farve": [ "lilla", "hvid" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/tshirt_gul_glove.jpg"
+      "billede": "./billeder/tshirts/t_shirts_gul_glove.jpg"
+    },
+    {
+      "navn": "cykeltroeje ",
+      "erhvervelse": [ "koebt", "nyt", "internettet", "hjemmelavet" ],
+      "farve": [ "lilla", "hvid" ],
+      "stil": "print",
+      "langaermet": false,
+      "billede": "./billeder/tshirts/t_shirts_cykeltroeje.jpg"
+    },
+    {
+      "navn": "robert band",
+      "erhvervelse": [ "koebt", "nyt", "internettet", "hjemmelavet" ],
+      "farve": [ "lilla", "hvid" ],
+      "stil": "print",
+      "langaermet": false,
+      "billede": "./billeder/tshirts/t_shirts_robert_band.jpg"
     }
   ],
   "skjorter": [
@@ -273,7 +281,7 @@
       "stil": "print",
       "slips": true,
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_svampe.jpg"
     },
     {
       "navn": "Butter",
@@ -300,7 +308,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ralph_lauren.jpg"
     },
     {
       "navn": "Our legacy denim",
@@ -390,7 +398,7 @@
       "stil": "plain",
       "slips": false,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ravi_silke_hvid.jpg"
     },
     {
       "navn": "chickme",
@@ -400,6 +408,15 @@
       "slips": false,
       "langaermet": true,
       "billede": "./billeder/tshirts/t_shirts_skjorter_chickme_ternet_skjorte.jpg"
+    },
+    {
+      "navn": "oscar",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "hvid",
+      "stil": "plain",
+      "slips": false,
+      "langaermet": true,
+      "billede": "./billeder/tshirts/t_shirts_skjorter_t_shirts_skjorte_oscar.jpg"
     }
   ]
 }

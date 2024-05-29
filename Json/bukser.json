@@ -109,6 +109,15 @@
       "farve": "lyseblaa",
       "varme": 6,
       "billede": "./billeder/bukser/bukser_our_legacy.jpg"
+    },
+     {
+      "navn": "North face",
+      "lange_bukser": true,
+      "baelte": true,
+      "erhvervelse": [ "koebt", "brugt", "internettet" ],
+      "farve": "lyseblaa",
+      "varme": 6,
+      "billede": "./billeder/bukser/bukser_north_face.jpg"
     }
 
 

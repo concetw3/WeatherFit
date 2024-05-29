@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Tiger",
+        "category": "hovedbeklaedning",
+        "image_path": "./billeder/acc/acc_hat_tiger.jpg"
+    },
+    {
+        "name": "Vi har travlt simba",
+        "category": "tshirt",
+        "image_path": "./billeder/tshirts/t_shirts_vi_travlt_simba_.jpg"
+    },
+    {
+        "name": "B.B fashion silke - roed",
+        "category": "skjorter",
+        "image_path": "./billeder/tshirts/t_shirts_skjorter_ravi_sehgal_roed_silke.jpg"
+    },
+    {
+        "name": "Hardstylers.dk",
+        "category": "troejer",
+        "image_path": "./billeder/troejer/troejer_hardstyler_dot_dk.jpg"
+    },
+    {
+        "name": "Henri Lloyd oilskin",
+        "category": "jakker",
+        "image_path": "./billeder/jakker/jakker_henri_lloyd.jpg"
+    },
+    {
+        "name": "metal baelte",
+        "category": "baelter",
+        "image_path": "./billeder/acc/acc_metalbaelte.jpg"
+    },
+    {
+        "name": "Kentaur",
+        "category": "bukser",
+        "image_path": "./billeder/bukser/bukser_diesel.jpg"
+    },
+    {
+        "name": "Playboy uden snoerrebaand",
+        "category": "sko",
+        "image_path": "./billeder/sko/sko_playboy_uden_snoerrebaand.jpg.jpg"
+    }
+]

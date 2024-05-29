@@ -29,35 +29,35 @@
       "erhvervelse": [ "faaet", "brugt" ],
       "farve": [ "moerkeblaa", "orange" ],
       "varme": 5,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hue0.jpg"
     },
     {
       "navn": "Mil-tec",
       "erhvervelse": [ "brugt", "koebt", "genbrug" ],
       "farve": "sort",
       "varme": 6,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hue1.jpg"
     },
     {
       "navn": "Sport fashion",
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "sort",
       "varme": 5,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hue2.jpg"
     },
     {
       "navn": "hjemmestrikket",
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": "hvid",
       "varme": 4,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hue3.jpg"
     },
     {
       "navn": "Asta hjemmestrikket hue",
       "erhvervelse": [ "gave", "hjemmelavet" ],
       "farve": [ "groen", "guld" ],
       "varme": 6,
-      "billede": "./test_billeder/hat.jpg"
+      "billede": "./billeder/acc/acc_hue4.jpg"
     }
 
 
