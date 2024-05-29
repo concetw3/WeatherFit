@@ -34,8 +34,8 @@ position_mapping = {
 
 print(outfit_liste)
 
-cell_width = 200
-cell_height = 200
+cell_width = 1500
+cell_height = 1500
 
 grid_width = 5
 grid_height = 4

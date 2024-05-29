@@ -59,7 +59,7 @@
     {
       "navn": "G star",
       "lange_bukser": true,
-      "baelte": false,
+      "baelte": true,
       "erhvervelse": [ "koebt", "brugt", "genbrug" ],
       "farve": [ "blaa", "gule" ],
       "varme": 6,
@@ -90,7 +90,7 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "farve": "sort",
       "varme": 4,
-      "billede": "./billeder/bukser/.jpg"
+      "billede": "./billeder/bukser/bukser_dressmann.jpg"
     },
     {
       "navn": "Levis 501 slidte m. huller",

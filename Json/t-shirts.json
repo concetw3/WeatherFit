@@ -6,7 +6,7 @@
       "erhvervelse": [ "fundet", "hjemmelavet" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_commes_ces_garcons.jpg"
     },
     {
       "navn": "Kappa",
@@ -14,7 +14,7 @@
       "erhvervelse": [ "koebt", "brugt", "internettet" ],
       "stil": "striber",
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirt_kappa.jpg"
     },
     {
       "navn": "Made in Heaven",
@@ -54,7 +54,7 @@
       "farve": "sort",
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_loesriv_lolland.jpg"
     },
     {
       "navn": "Lever det her liv sindssyge liv som flok tror jeg tager serioest",
@@ -70,7 +70,7 @@
       "farve": [ "sort", "hvid" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_eriksminde.jpg"
     },
     {
       "navn": "L.L.L.L",
@@ -78,7 +78,7 @@
       "farve": "blandede",
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_LLLL.jpg"
     },
     {
       "navn": "Anholt kro - t-shirt",
@@ -86,7 +86,7 @@
       "farve": [ "orange", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_anholt_kro.jpg"
     },
     {
       "navn": "Anholt Kro - polo",
@@ -94,7 +94,7 @@
       "farve": [ "orange", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_anholt_kro_polo.jpg"
     },
     {
       "navn": "G-star raw",
@@ -102,7 +102,7 @@
       "farve": "graa",
       "stil": "print",
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_G_star.jpg"
     },
     {
       "navn": "Broder",
@@ -110,7 +110,7 @@
       "farve": [ "sort", "hvid" ],
       "stil": "stil",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_broder.jpg"
     },
     {
       "navn": "Janushoved",
@@ -118,7 +118,7 @@
       "farve": [ "hvid", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_janushoved.jpg"
     },
     {
       "navn": "Stockholm surfboard club",
@@ -126,7 +126,7 @@
       "farve": [ "gul", "blandede" ],
       "stil": "print",
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_stockholm_surfboard.jpg"
     },
     {
       "navn": "Bad Axe throwing",
@@ -134,7 +134,7 @@
       "farve": [ "sort", "roed" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_bad_axe.jpg"
     },
     {
       "navn": "Divided tank top",
@@ -142,7 +142,7 @@
       "farve": "sort",
       "stil": "plain",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_divided_tank_top.jpg"
     },
     {
       "navn": "Pafund til rigets ende",
@@ -150,7 +150,7 @@
       "farve": [ "hvid", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_pafund.jpg"
     },
     {
       "navn": "Vi har travlt simba",
@@ -158,7 +158,7 @@
       "farve": "creme",
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_vi_travlt_simba_.jpg"
     },
     {
       "navn": "FCK",
@@ -166,7 +166,7 @@
       "farve": [ "hvid", "blaa" ],
       "stil": [ "print", "brodering" ],
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_fck.jpg"
     },
     {
       "navn": "team easy on",
@@ -174,7 +174,7 @@
       "farve": [ "lyseroed", "orange" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_team_easy_on.jpg"
     },
     {
       "navn": "I love Nyhavn",
@@ -190,7 +190,7 @@
       "farve": "moerkeblaa",
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_neutral.jpg"
     },
     {
       "navn": "Xofako - oys and ripped just something about",
@@ -198,7 +198,7 @@
       "farve": "lilla",
       "stil": "print",
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_xofako.jpg"
     },
     {
       "navn": "puma gucci single",
@@ -206,7 +206,7 @@
       "farve": [ "sort", "blaa" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_puma_gucci_single.jpg"
     },
     {
       "navn": "Bevar Woodstock",
@@ -214,7 +214,7 @@
       "farve": "groen",
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_bevar_woodstock.jpg"
     },
     {
       "navn": "Exact science",
@@ -222,7 +222,7 @@
       "farve": [ "moerkeblaa", "sort" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_exact_science.jpg"
     },
     {
       "navn": "Bevar Christiania",
@@ -230,7 +230,7 @@
       "farve": "groen",
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_bevar_christiania.jpg"
     },
     {
       "navn": "Armor Lux",
@@ -238,7 +238,15 @@
       "farve": [ "moerkeroed", "moerkeblaa" ],
       "stil": "stribet",
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_armor_lux_roed_blaa.jpg"
+    },
+    {
+      "navn": "Armor Lux NY",
+      "erhvervelse": [ "gave", "koebt", "nyt", "butik" ],
+      "farve": [ "moerkeroed", "moerkeblaa" ],
+      "stil": "stribet",
+      "langaermet": true,
+      "billede": "./billeder/tshirts/t_shirts_armor_lux_roed_lilla.jpg"
     },
     {
       "navn": "Stanley Stella ",
@@ -246,7 +254,15 @@
       "farve": [ "lilla", "hvid" ],
       "stil": "print",
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_stanley_stella.jpg"
+    },
+    {
+      "navn": "Body Clove ",
+      "erhvervelse": [ "koebt", "nyt", "internettet", "hjemmelavet" ],
+      "farve": [ "lilla", "hvid" ],
+      "stil": "print",
+      "langaermet": false,
+      "billede": "./billeder/tshirts/tshirt_gul_glove.jpg"
     }
   ],
   "skjorter": [
@@ -266,7 +282,7 @@
       "stil": "print",
       "slips": true,
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_butter.jpg"
     },
     {
       "navn": "Roberto Biagini",
@@ -275,7 +291,7 @@
       "stil": "striber",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_roberto_biagini.jpg"
     },
     {
       "navn": "Ralph Lauren",
@@ -293,7 +309,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_our_legacy_graa_denim.jpg"
     },
     {
       "navn": "wrangler",
@@ -302,7 +318,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_wrangler.jpg"
     },
     {
       "navn": "Ravi Sehgal formel - hvid",
@@ -311,7 +327,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ravi_sehgal_hvid_skjorte.jpg"
     },
     {
       "navn": "Ravi Sehgal formel - lyseblaa",
@@ -320,7 +336,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ravi_sehgal_lyseblaa_formel.jpg"
     },
     {
       "navn": "FSBN",
@@ -329,7 +345,7 @@
       "stil": "print",
       "slips": true,
       "langaermet": false,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_fsbn.jpg"
     },
     {
       "navn": "Our legacy silke",
@@ -338,7 +354,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_our_legacy_graa.jpg"
     },
     {
       "navn": "B.B fashion silke - moerkeblaa",
@@ -347,7 +363,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ravi_sehgal_blaa_silke.jpg"
     },
     {
       "navn": "B.B fashion silke - sort",
@@ -356,7 +372,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ravi_sehgal_sort_silke.jpg"
     },
     {
       "navn": "B.B fashion silke - roed",
@@ -365,7 +381,7 @@
       "stil": "plain",
       "slips": true,
       "langaermet": true,
-      "billede": "./billeder/tshirts/.jpg"
+      "billede": "./billeder/tshirts/t_shirts_skjorter_ravi_sehgal_roed_silke.jpg"
     },
     {
       "navn": "Ravi Sehgal silke - hvid",
@@ -375,6 +391,15 @@
       "slips": false,
       "langaermet": true,
       "billede": "./billeder/tshirts/.jpg"
+    },
+    {
+      "navn": "chickme",
+      "erhvervelse": [ "koebt", "nyt", "skraeddersyet" ],
+      "farve": "hvid",
+      "stil": "plain",
+      "slips": false,
+      "langaermet": true,
+      "billede": "./billeder/tshirts/t_shirts_skjorter_chickme_ternet_skjorte.jpg"
     }
   ]
 }

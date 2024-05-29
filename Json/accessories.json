@@ -35,7 +35,7 @@
 			"erhvervelse": [ "gave", "nyt", "butik" ],
 			"farve": "sort",
 			"varme": 8,
-			"billede": "./test_billeder/handsker.jpg"
+			"billede": "./billeder/acc/handsker_hestra.jpg"
 		},
 		{
 			"navn": "arbejdshandsker med knopper",

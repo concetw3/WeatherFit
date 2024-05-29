@@ -10,6 +10,25 @@
       "blazer": false,
       "billede": "./billeder/troejer/troejer_hardstyler_dot_dk.jpg"
     },
+
+    {
+      "navn": "neon",
+      "farve": [ "sort", "hvid" ],
+      "erhvervelse": [ "fundet" ],
+      "varme": 5,
+      "stil": "print",
+      "blazer": false,
+      "billede": "./billeder/troejer/troejer_neon.jpg"
+    },
+    {
+      "navn": "g-star",
+      "farve": [ "sort", "hvid" ],
+      "erhvervelse": [ "fundet" ],
+      "varme": 5,
+      "stil": "print",
+      "blazer": false,
+      "billede": "./billeder/troejer/troejer_g_star.jpg"
+    },
     {
       "navn": "Kappa tracktop",
       "farve": [ "lyseblaa", "gul" ],
@@ -82,7 +101,7 @@
       "blazer": true,
       "billede": "./billeder/troejer/trojer_blazer_bruuns_bazaar.jpg"
     },
-    
+
     {
       "navn": "JKS arbejdstroeje m. malingpletter",
       "erhvervelse": [ "faaet" ],
