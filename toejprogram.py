@@ -39,14 +39,14 @@ def load_json_file(path):
         return json.load(f)
 
 
-accessories_data = load_json_file('./Json/accessories.json')
-hovedbeklaedning_data = load_json_file('./Json/hovedbeklaedning.json')
-bukser_data = load_json_file('./Json/bukser.json')
-solbriller_data = load_json_file('./Json/solbriller.json')
-sko_data = load_json_file('./Json/sko.json')
-troejer_data = load_json_file('./Json/troejer.json')
-jakker_data = load_json_file('./Json/jakker.json')
-t_shirts_data = load_json_file('./Json/t-shirts.json')
+accessories_data = load_json_file('/T-jprogram//Json/accessories.json')
+hovedbeklaedning_data = load_json_file('/T-jprogram//hovedbeklaedning.json')
+bukser_data = load_json_file('/T-jprogram//bukser.json')
+solbriller_data = load_json_file('/T-jprogram//solbriller.json')
+sko_data = load_json_file('/T-jprogram//sko.json')
+troejer_data = load_json_file('/T-jprogram//troejer.json')
+jakker_data = load_json_file('/T-jprogram//jakker.json')
+t_shirts_data = load_json_file('/T-jprogram//t-shirts.json')
 
 
 latitude = 55.67
@@ -204,7 +204,7 @@ def outfit(timeseries):
     json_load_data = json.loads(json_dump_data)
                
     FORMAT = '%Y%m%d%H%M%S'
-    directory = "./Logs"
+    directory = "/T-jprogram/Logs"
     filename = "vejr.txt"
     new_filename = '%s_%s' % (datetime.now().strftime(FORMAT), filename)
     new_path = os.path.join(directory, new_filename) 

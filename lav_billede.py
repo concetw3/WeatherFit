@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 import random
-from toejprogram_clean import outfit, timeseries
+from toejprogram import outfit, timeseries
 from datetime import datetime
 
 
