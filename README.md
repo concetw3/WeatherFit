@@ -1,6 +1,6 @@
-# T-jprogram – Weather-Based Clothing Recommendation System
+# WeatherFit – Weather-Based Clothing Recommendation System
 
-T-jprogram is a Python-based clothing recommendation program that generates a suitable outfit based on the current and upcoming weather conditions.
+WeatherFit is a Python-based clothing recommendation program that generates a suitable outfit based on the current and upcoming weather conditions.
 
 The program retrieves weather data from the Norwegian Meteorological Institute's weather API and uses information such as temperature, precipitation, and weather conditions to determine which types of clothing are appropriate. It then selects clothing items from a collection of JSON-based clothing databases, covering categories such as jackets, trousers, shoes, sweaters, shirts, hats, sunglasses, gloves, belts, and other accessories.
 
@@ -19,4 +19,4 @@ The project demonstrates the use of:
 * The Pillow (PIL) library for image generation
 * Modular functions for different clothing categories
 
-Overall, T-jprogram combines weather data with a structured clothing database to automatically create personalized outfit suggestions based on the expected weather.
+Overall, WeatherFit combines weather data with a structured clothing database to automatically create personalized outfit suggestions based on the expected weather.
